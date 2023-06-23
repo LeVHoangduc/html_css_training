@@ -4,14 +4,120 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/global.css" type="text/css" />
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="./css/global.css" type="text/css" /> -->
+
     <title>Figma Land</title>
   </head>
   <body>
-    <header>
-      <p>You get a public</p>
+    <header class="header container">
+      <a href="#" class="header__logo">
+        <img src="./images/header/Logo.png" alt="Logo" class="logo__img" />
+        <span class="logo__text text text--xl">VanGoux</span>
+      </a>
+      <div class="header__menu">
+        <nav class="header__navbar">
+          <ul class="header__list">
+            <li>
+              <a href="#" class="header__link text text--sm">How it works</a>
+            </li>
+            <li><a href="#" class="header__link text text--sm">Features</a></li>
+            <li>
+              <a href="#" class="header__link text text--sm">Use cases</a>
+            </li>
+            <li>
+              <a href="#" class="header__link text text--sm">Schedule a demo</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="header__upload btn">Upload Sketch</a>
+      </div>
     </header>
-    <div class="content"></div>
+    <div class="content container">
+      <section class="hero">
+        <h1 class="hero__title">
+          Launch beautiful websites directly from Sketch
+        </h1>
+        <p class="hero__description text text--desc">
+          Create pixel perfect websites, landing pages & portfolios directly
+          from your Sketch designs
+        </p>
+
+        <a href="#" class="hero__upload btn">Upload Your Sketch File</a>
+        <figure class="hero__img">
+          <img
+            src="./images/hero/IllustrationMain.png"
+            alt="IllustrationMain"
+          />
+        </figure>
+      </section>
+
+      <!-- Section feedbacks -->
+
+      <section class="feedbacks">
+        <div class="feedbacks__container">
+          <div class="feedback">
+            <div class="feedback__header">
+              <div class="feedback__header--intro">
+                <img
+                  src="./images/feedback/TestimonialPictureMan.png"
+                  alt="User photo"
+                  class="feedback__photo"
+                />
+                <div class="feedback__person">
+                  <p class="text text--lg">John Doe</p>
+                  <p class="feedback__position text text--primary">
+                    CEO, PrettyDopeDesigns
+                  </p>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./images/feedback/IllustrationQuote.png"
+                  alt="IllustrationQuote"
+                  class="feedback__img"
+                />
+              </div>
+            </div>
+
+            <p class="feedback__content text text--base">
+              “Our senior frontend developer was 70% faster in building React.js
+              components thanks to VanGoux!”
+            </p>
+          </div>
+          <div class="feedback">
+            <div class="feedback__header">
+              <div class="feedback__header--intro">
+                <img
+                  alt="User photo"
+                  src="./images/feedback/TestimonialPicture Woman.png"
+                  class="feedback__photo"
+                />
+                <div class="feedback__person">
+                  <p class="text text--lg">Jane Goodman</p>
+                  <p class="feedback__position text text--primary">
+                    Founder, ImpactNation
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <img
+                  alt="IllustrationQuote"
+                  src="./images/feedback/IllustrationQuote.png"
+                  class="feedback__img"
+                />
+              </div>
+            </div>
+
+            <p class="feedback__content text text-base">
+              “It was awesome to see VanGoux turn our MVP designs into code
+              within minutes.”
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
     <footer></footer>
   </body>
 </html>

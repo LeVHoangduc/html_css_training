@@ -1,0 +1,49 @@
+/* === Section Feedback ===  */
+.feedbacks {
+  margin-top: 208px;
+}
+.feedbacks__container {
+  width: 100%;
+  max-width: 1120px;
+  display: flex;
+  gap: 40px;
+}
+
+.feedback {
+  box-sizing: border-box;
+  width: 540px;
+  height: 280px;
+  flex-shrink: 0;
+  background: #fff;
+  padding: 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.feedback__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback__photo {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.feedback__header--intro {
+  display: flex;
+  align-items: center;
+}
+.feedback__person {
+  padding-left: 20px;
+}
+
+.feedback__position {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.feedback__content {
+  margin-top: 40px;
+  line-height: 30px;
+}

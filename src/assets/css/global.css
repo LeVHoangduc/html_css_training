@@ -8,6 +8,8 @@
   --fw-bold: 700;
   --fw-regular: 500;
   --fw-light: 400;
+  --primary-color: #1968fa;
+  --second-color: #1968fc;
 }
 
 /*-----------------------------------------*\
@@ -16,10 +18,76 @@
 p {
   font-family: "Muli";
   color: #11223f;
+  font-size: 16px;
+  line-height: 30px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--second-color);
+}
+
+h3 {
+  font-weight: 600;
+  line-height: 30px;
 }
 /*-----------------------------------------*\
   #GLOBAL CLASSES
 \*-----------------------------------------*/
+.container {
+  width: 1120px;
+  margin: 0 auto;
+  position: relative;
+}
+.content {
+  margin-top: 150px;
+}
+.text {
+  font-family: "Muli";
+  color: #11223f;
+}
+.text--primary {
+  color: var(--primary-color);
+}
+.text--second {
+  color: var(--second-color);
+}
+.text--sm {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.text--base {
+  font-size: 16px;
+}
+.text--lg {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.text--xl {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.text--desc {
+  font-size: 20px;
+  line-height: 40px;
+}
+.btn {
+  color: #ffffff;
+  display: flex;
+  font-family: "Muli";
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background: #1968fc;
+  text-shadow: 0px 10px 40px 0px rgba(25, 104, 252, 0.2);
+}
 
 /*-----------------------------------------*\
   #SET FONT FAMILY
