@@ -28,6 +28,12 @@ a:hover {
   color: var(--second-color);
 }
 
+h1 {
+  color: #11223f;
+  font-size: 30px;
+  font-family: "Muli";
+  line-height: 60px;
+}
 h3 {
   font-weight: 600;
   line-height: 30px;
@@ -41,7 +47,7 @@ h3 {
   position: relative;
 }
 .content {
-  margin-top: 150px;
+  margin-top: 140px;
 }
 .text {
   font-family: "Muli";
@@ -52,6 +58,12 @@ h3 {
 }
 .text--second {
   color: var(--second-color);
+}
+.text--step {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
 }
 .text--sm {
   font-size: 14px;
@@ -88,7 +100,16 @@ h3 {
   background: #1968fc;
   text-shadow: 0px 10px 40px 0px rgba(25, 104, 252, 0.2);
 }
-
+.title::before {
+  content: "";
+  width: 79.657px;
+  height: 2px;
+  position: absolute;
+  top: 70px;
+  left: -40px;
+  background: var(--second-color);
+  box-shadow: 0px 2px 0px 0px #d1e1fe;
+}
 /*-----------------------------------------*\
   #SET FONT FAMILY
 \*-----------------------------------------*/

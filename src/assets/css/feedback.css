@@ -47,3 +47,8 @@
   margin-top: 40px;
   line-height: 30px;
 }
+
+.feedback:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 20px,
+    rgba(17, 17, 26, 0.1) 0px 12px 52px, rgba(17, 17, 26, 0.1) 0px 20px 76px;
+}
