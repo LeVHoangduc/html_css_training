@@ -22,4 +22,8 @@
 
 ## Team size:
 
-- 1 dev: Duc Le
+- 1 developer
+
+## Author:
+
+- Duc Le
