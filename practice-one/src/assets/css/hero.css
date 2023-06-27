@@ -1,0 +1,34 @@
+.hero__title {
+  width: 600px;
+  height: 120px;
+  color: #11223f;
+  font-size: 40px;
+  font-family: "Muli";
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 1px;
+}
+.hero__description {
+  width: 650px;
+  height: 120px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.hero__button {
+  width: 300px;
+  height: 50px;
+  position: relative;
+}
+.hero__img {
+  position: absolute;
+  left: 521px;
+  top: 80px;
+}
+.hero__img img {
+  width: 599px;
+  height: 502px;
+}
+.hero__button:hover {
+  color: #ffffff;
+  scale: 1.04;
+}
