@@ -2,17 +2,14 @@
   margin-top: 208px;
 }
 .feedbacks__container {
-  width: 100%;
-  max-width: 1120px;
   display: flex;
   gap: 40px;
 }
 .feedback {
   box-sizing: border-box;
-  width: 540px;
-  height: 280px;
+  flex-basis: 540px;
   flex-shrink: 0;
-  background: #fff;
+  background: #ffffff;
   padding: 40px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -25,7 +22,7 @@
   height: 100px;
   flex-shrink: 0;
 }
-.feedback__header--intro {
+.feedback__introduction {
   display: flex;
   align-items: center;
 }
