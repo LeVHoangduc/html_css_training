@@ -1,0 +1,43 @@
+.feedbacks {
+  box-sizing: border-box;
+  padding-top: 208px;
+  display: flex;
+  gap: 40px;
+}
+.feedback {
+  box-sizing: border-box;
+  flex-basis: 540px;
+  flex-shrink: 0;
+  background: #ffffff;
+  padding: 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.feedback__header {
+  display: flex;
+  justify-content: space-between;
+}
+.feedback__photo {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.feedback__introduction {
+  display: flex;
+  align-items: center;
+}
+.feedback__person {
+  padding-left: 20px;
+}
+.feedback__position {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.feedback__content {
+  padding-top: 40px;
+  line-height: 30px;
+}
+.feedback:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 20px,
+    rgba(17, 17, 26, 0.1) 0px 12px 52px, rgba(17, 17, 26, 0.1) 0px 20px 76px;
+}
