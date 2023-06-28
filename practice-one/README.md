@@ -12,7 +12,7 @@
 
 ## Information:
 
-- Timeline: 2023/06/21 – 2023/06/29
+- Timeline: 2023/06/21 – 2023/07/04
 - Editor: Visual Studio Code
 - Supported browser: Chrome, MS Edge lasted
 
