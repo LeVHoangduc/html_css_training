@@ -7,7 +7,6 @@
   gap: 85px;
   padding-top: 60px;
 }
-
 .feature {
   box-sizing: border-box;
   position: relative;
@@ -22,11 +21,9 @@
 .feature:nth-child(2) {
   transform: translateY(40px);
 }
-
 .feature:last-child {
   transform: translateY(80px);
 }
-
 .feature:nth-child(2) {
   margin-left: -11px;
   overflow-x: visible;
