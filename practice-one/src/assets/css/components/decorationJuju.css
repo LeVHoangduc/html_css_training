@@ -1,0 +1,32 @@
+.decorationJuju {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 200px;
+  left: 298.6px;
+}
+.decoration {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.decoration__1 {
+  background: rgba(49, 69, 244, 0.1);
+  width: 79.82%;
+  height: 80.35%;
+  position: relative;
+}
+.decoration__2 {
+  background: #1968fc;
+  width: 50%;
+  height: 50%;
+  transform: translate(100%, 100%);
+  position: relative;
+}
+.decoration__3 {
+  position: absolute;
+  width: 59.81%;
+  height: 59.81%;
+  background: rgba(55, 73, 241, 0.1);
+  transform: translate(66.68%, -66.77%);
+}
