@@ -14,21 +14,19 @@
   position: relative;
   width: 80%;
   height: 80%;
-  background: #3145f4;
-  opacity: 0.1;
+  background: #3749f11a;
 }
 .decoration--middle {
   position: relative;
   width: 50%;
   height: 50%;
-  background: #1968fc;
+  background: var(--second-color);
   transform: translate(100%, 100%);
 }
 .decoration--bottom {
   position: absolute;
   width: 60%;
   height: 60%;
-  background: #3145f4;
-  opacity: 0.1;
+  background: #3749f11a;
   transform: translate(66.7%, -66.7%);
 }

@@ -10,7 +10,7 @@
   flex-shrink: 0;
   background: #ffffff;
   padding: 40px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: var(--shadow-color) 0px 8px 24px;
 }
 .feedback__header {
   display: flex;
@@ -38,6 +38,6 @@
   line-height: 30px;
 }
 .feedback:hover {
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 20px,
-    rgba(17, 17, 26, 0.1) 0px 12px 52px, rgba(17, 17, 26, 0.1) 0px 20px 76px;
+  box-shadow: #11111a1a 0px 4px 20px, #11111a1a 0px 12px 52px,
+    #11111a1a 0px 20px 76px;
 }
