@@ -4,6 +4,7 @@
 }
 .features__list {
   display: flex;
+  gap: 85px;
   padding-top: 60px;
 }
 .feature {
@@ -22,12 +23,6 @@
 }
 .feature:last-child {
   transform: translateY(80px);
-}
-.feature:first-child {
-  margin-right: 74px;
-}
-.feature:nth-child(2) {
-  margin-right: 85px;
 }
 .feature__header {
   display: flex;
