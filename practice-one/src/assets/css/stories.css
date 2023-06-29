@@ -1,0 +1,43 @@
+.stories {
+  margin-top: 120px;
+}
+.stories__list {
+  display: flex;
+  padding-top: 60px;
+  gap: 150px;
+}
+.story,
+.story__second {
+  display: flex;
+  flex-basis: 480px;
+  flex-direction: column;
+  gap: 30px;
+}
+.story__header {
+  display: flex;
+  gap: 20px;
+}
+.story__header h2 {
+  color: #111111;
+  font-weight: 600;
+  text-transform: none;
+}
+.story__content {
+  display: flex;
+  flex-basis: 240px;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-content: space-between;
+  width: 420px;
+  color: #000000;
+  font-weight: 400;
+}
+.story__content a {
+  color: var(--third-color);
+  text-decoration: underline;
+  font-weight: 400;
+  line-height: 30px;
+}
+.story__second {
+  gap: 20px;
+}
