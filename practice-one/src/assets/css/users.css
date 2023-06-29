@@ -1,0 +1,20 @@
+.users {
+  margin-top: 79px;
+}
+.users__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 65px;
+}
+.user {
+  box-sizing: border-box;
+  flex-basis: 360px;
+  flex-shrink: 0;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 20px 60px 0px var(--shadow-color);
+}
+.user__content {
+  padding-top: 20px;
+}
