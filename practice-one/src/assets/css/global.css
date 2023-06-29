@@ -35,6 +35,14 @@ h1 {
   font-family: "Muli";
   line-height: 60px;
 }
+h2 {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-family: "Muli";
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+}
 h3 {
   font-weight: 600;
   line-height: 30px;
