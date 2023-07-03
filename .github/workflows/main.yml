@@ -15,7 +15,6 @@ jobs:
 
       - name: Install Netlify CLI
         run: npm install netlify-cli -g
-        
       - name: build and deploy
         uses: South-Paw/action-netlify-deploy@v1.2.0
         with:
