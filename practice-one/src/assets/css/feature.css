@@ -4,7 +4,7 @@
 }
 .features__list {
   display: flex;
-  gap: 85px;
+  gap: 80px;
   padding-top: 60px;
 }
 .feature {
