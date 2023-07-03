@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Copy assets folder
-        run: cp -R .assets ./practice-one/static
+        run: cp -R ./assets ./practice-one/static
 
       - name: Install Netlify CLI
         run: npm install netlify-cli -g
