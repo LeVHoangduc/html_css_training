@@ -1,6 +1,6 @@
 /* || Button Component */
 .btn {
-  color: #ffffff;
+  color: var(--primary-bg-color);
   display: flex;
   font-family: "Muli";
   justify-content: center;
