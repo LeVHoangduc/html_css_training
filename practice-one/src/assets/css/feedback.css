@@ -8,7 +8,7 @@
   box-sizing: border-box;
   flex-basis: 540px;
   flex-shrink: 0;
-  background: #ffffff;
+  background: var(--primary-bg-color);
   padding: 40px;
   box-shadow: var(--shadow-color) 0px 8px 24px;
 }

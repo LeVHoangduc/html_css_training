@@ -18,19 +18,19 @@
   width: 640px;
   padding-top: 60px;
   padding-bottom: 40px;
-  color: #ffffff;
+  color: var(--primary-bg-color);
   font-weight: 400;
   line-height: 40px;
 }
 .cta__information h1 {
-  color: #ffffff;
+  color: var(--primary-bg-color);
   font-weight: 700;
 }
 .cta__button {
   width: 320px;
   height: 50px;
   color: var(--second-color);
-  background: #ffffff;
+  background: var(--primary-bg-color);
   line-height: 40px;
   font-weight: 700;
   text-align: center;
@@ -43,6 +43,6 @@
   right: 0;
 }
 .cta__information .titleElement::before {
-  background: #ffffff;
+  background: var(--primary-bg-color);
   box-shadow: 0px 2px 0px 0px #6a9eff;
 }

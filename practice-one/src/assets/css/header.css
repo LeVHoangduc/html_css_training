@@ -16,7 +16,7 @@
   margin-left: 20px;
 }
 .header__button:hover {
-  color: #ffffff;
+  color: var(--primary-bg-color);
   scale: 1.04;
 }
 .logo__img {
@@ -41,7 +41,7 @@
   padding-left: 30px;
   padding-right: 30px;
 }
-[class="header__link"] {
-  color: #000000;
+.header__link {
+  color: var(--third-color);
   text-align: center;
 }

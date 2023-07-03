@@ -12,7 +12,7 @@
   position: relative;
   flex-basis: 320px;
   height: 290px;
-  background: #fff;
+  background: var(--primary-bg-color);
   box-shadow: 0px 20px 60px 0px var(--shadow-color);
 }
 .feature:nth-child(2) {

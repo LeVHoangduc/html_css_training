@@ -23,7 +23,7 @@
   flex-shrink: 0;
 }
 .service__content {
-  color: #000000;
+  color: var(--third-color);
   padding: 20px;
   line-height: 40px;
 }

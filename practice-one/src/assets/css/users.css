@@ -12,7 +12,7 @@
   flex-basis: 360px;
   flex-shrink: 0;
   padding: 20px;
-  background: #ffffff;
+  background: var(--primary-bg-color);
   box-shadow: 0px 20px 60px 0px var(--shadow-color);
 }
 .user__content {
