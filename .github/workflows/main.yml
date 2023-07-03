@@ -1,0 +1,15 @@
+name: Deploy Netlify site
+
+on:
+  push:
+    branches: feature/practice-one 
+  pull_request:
+    branches: feature/practice-one 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Deploy site
+        run: curl -X POST -d {} ${{secrets.NETLIFY_BUILD_HOOK}}
+    
