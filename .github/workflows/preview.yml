@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Copy assets folder
-        run: cp -R ./assets ./practice-one/src/assets
+        run: cp -R ./practice-one/src/assets ./practice-one/src/assets
 
       - name: Install Netlify CLI
         run: npm install netlify-cli -g
@@ -28,5 +28,5 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
-          build-dir: "./practice-one/src"
+          build-dir: "./practice-one"
           comment-on-commit: true
