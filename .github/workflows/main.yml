@@ -3,7 +3,10 @@ name: Deploy to Netlify
 on:
   push:
     branches:
-      - main
+      - feature/practice-one
+  pull_request:
+    branches:
+      - feature/practice-one
 
 jobs:
   deploy:
