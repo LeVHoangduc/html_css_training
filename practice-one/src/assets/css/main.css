@@ -1,6 +1,6 @@
-@import url(base/reset.css);
+@import url(bases/reset.css);
 @import url(utils/variables.css);
-@import url(base/global.css);
+@import url(bases/global.css);
 @import url(./components/button.css);
 @import url(./components/titleElement.css);
 @import url(./components/decoration.css);
