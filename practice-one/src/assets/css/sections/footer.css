@@ -9,10 +9,11 @@
   gap: 10px;
   align-items: center;
 }
-.footer__logo p {
+.footer__logo .logo__content {
   color: var(--second-color);
   background: #3145f419;
   box-shadow: 0 0 0 15px #3145f419;
+  cursor: pointer;
 }
 .footer__list {
   display: flex;
