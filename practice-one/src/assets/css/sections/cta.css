@@ -19,12 +19,12 @@
   padding-top: 60px;
   padding-bottom: 40px;
   color: var(--primary-bg-color);
-  font-weight: 400;
+  font-weight: var(--fw-normal);
   line-height: 40px;
 }
 .cta__information h1 {
   color: var(--primary-bg-color);
-  font-weight: 700;
+  font-weight: var(--fw-bold);
 }
 .cta__button {
   width: 320px;
@@ -32,7 +32,7 @@
   color: var(--second-color);
   background: var(--primary-bg-color);
   line-height: 40px;
-  font-weight: 700;
+  font-weight: var(--fw-bold);
   text-align: center;
   text-transform: uppercase;
   text-align: center;

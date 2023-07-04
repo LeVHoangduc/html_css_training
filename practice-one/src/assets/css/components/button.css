@@ -5,7 +5,7 @@
   font-family: "Muli";
   justify-content: center;
   align-items: center;
-  font-weight: 700;
+  font-weight: var(--fw-bold);
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
