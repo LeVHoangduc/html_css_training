@@ -1,18 +1,3 @@
-:root {
-  --primary-font: "Muli";
-  --fw-bold: 700;
-  --fw-semibold: 600;
-  --fw-normal: 400;
-  --fw-light: 300;
-  --fw-extralight: 200;
-  --primary-color: #1968fa;
-  --second-color: #1968fc;
-  --third-color: #000000;
-  --primary-bg-color: #ffffff;
-  --gray-color: #11223f;
-  --shadow-color: #3145f419;
-}
-
 /*-----------------------------------------*\
     #GLOBAL ELEMENTS
   \*-----------------------------------------*/
