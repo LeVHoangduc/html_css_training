@@ -37,6 +37,9 @@
   text-transform: uppercase;
   text-align: center;
 }
+.cta__button:hover {
+  opacity: 0.9;
+}
 .cta__img {
   position: absolute;
   top: 20px;

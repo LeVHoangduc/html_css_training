@@ -4,12 +4,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.header__logo {
-  padding-right: 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
+
 .header__button {
   width: 180px;
   height: 50px;
@@ -17,7 +12,7 @@
 }
 .header__button:hover {
   color: var(--primary-bg-color);
-  scale: 1.04;
+  opacity: 0.9;
 }
 .logo__img {
   width: 50px;
@@ -28,14 +23,13 @@
   text-align: center;
   color: var(--second-color);
 }
-.header__menu {
+.header__navbar {
   display: flex;
+  justify-content: space-between;
 }
 .header__list {
-  display: flex;
-  height: 50px;
+  display: inherit;
   align-items: center;
-  justify-content: space-between;
 }
 .header__list li {
   padding-left: 30px;

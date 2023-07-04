@@ -30,5 +30,5 @@
 }
 .hero__button:hover {
   color: var(--primary-bg-color);
-  scale: 1.04;
+  opacity: 0.8;
 }
