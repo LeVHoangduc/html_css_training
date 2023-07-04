@@ -68,7 +68,7 @@ practice-one
 |-- package.json
 |-- README.md
 
-## Getting started:
+## Getting started
 
 - Step 01: Clone repository with HTTPS:
 
