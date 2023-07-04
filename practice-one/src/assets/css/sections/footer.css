@@ -30,7 +30,7 @@
 .footer__link a {
   color: var(--third-color);
 }
-.footer__link:hover {
+.footer__link:hover a {
   color: var(--second-color);
 }
 .footer__social {
