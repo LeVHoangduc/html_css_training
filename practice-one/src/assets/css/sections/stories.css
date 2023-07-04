@@ -19,7 +19,7 @@
 }
 .story__header h2 {
   color: #111111;
-  font-weight: 600;
+  font-weight: var(--fw-semibold);
   text-transform: none;
 }
 .story__content {
@@ -30,12 +30,12 @@
   justify-content: space-between;
   width: 420px;
   color: var(--third-color);
-  font-weight: 400;
+  font-weight: var(--fw-normal);
 }
 .story__content a {
   color: var(--third-color);
   text-decoration: underline;
-  font-weight: 400;
+  font-weight: var(--fw-normal);
   line-height: 30px;
 }
 .story__second {

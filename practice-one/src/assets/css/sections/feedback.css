@@ -30,7 +30,7 @@
 }
 .feedback__position {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: var(--fw-semibold);
   line-height: 30px;
 }
 .feedback__content {

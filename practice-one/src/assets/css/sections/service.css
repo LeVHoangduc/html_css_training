@@ -2,7 +2,7 @@
   margin-top: 146px;
 }
 .services h1 {
-  font-weight: 400;
+  font-weight: var(--fw-normal);
 }
 .services__list {
   padding-top: 50px;
