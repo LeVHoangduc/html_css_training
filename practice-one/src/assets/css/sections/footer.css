@@ -4,6 +4,16 @@
   align-items: center;
   justify-content: space-between;
 }
+.footer__logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.footer__logo p {
+  color: var(--second-color);
+  background: #3145f419;
+  box-shadow: 0 0 0 15px #3145f419;
+}
 .footer__list {
   display: flex;
   width: 480px;
