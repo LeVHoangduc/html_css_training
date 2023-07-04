@@ -27,7 +27,7 @@
 
 ## Folder structure
 
-practice-two
+practice-one
 
 |-- src
 |-- assets
