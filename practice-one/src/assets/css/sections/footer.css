@@ -1,4 +1,4 @@
-.footer {
+.main-footer {
   display: flex;
   margin-top: 110px;
   align-items: center;
@@ -9,10 +9,11 @@
   gap: 10px;
   align-items: center;
 }
-.footer__logo p {
+.footer__logo .logo__content {
   color: var(--second-color);
   background: #3145f419;
   box-shadow: 0 0 0 15px #3145f419;
+  cursor: pointer;
 }
 .footer__list {
   display: flex;
@@ -24,6 +25,9 @@
   align-items: center;
   flex-basis: 120px;
   height: 50px;
+  cursor: pointer;
+}
+.footer__link a {
   color: var(--third-color);
 }
 .footer__link:hover {
@@ -31,8 +35,9 @@
 }
 .footer__social {
   display: flex;
+  cursor: pointer;
 }
-.footer__social div {
+.footer__icon {
   display: flex;
   align-items: center;
   justify-content: center;

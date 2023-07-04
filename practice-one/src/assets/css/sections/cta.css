@@ -37,6 +37,11 @@
   text-transform: uppercase;
   text-align: center;
 }
+.cta__button:hover {
+  color: var(--primary-bg-color);
+  border: 1px solid var(--primary-bg-color);
+  background: var(--second-color);
+}
 .cta__img {
   position: absolute;
   top: 20px;

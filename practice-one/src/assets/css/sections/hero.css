@@ -15,6 +15,7 @@
   margin-bottom: 40px;
 }
 .hero__button {
+  box-sizing: border-box;
   width: 300px;
   height: 50px;
   position: relative;
@@ -29,6 +30,7 @@
   height: 502px;
 }
 .hero__button:hover {
-  color: var(--primary-bg-color);
-  scale: 1.04;
+  color: var(--second-color);
+  border: 1px solid var(--second-color);
+  background: var(--primary-bg-color);
 }

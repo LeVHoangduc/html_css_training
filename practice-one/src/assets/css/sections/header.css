@@ -1,23 +1,20 @@
-.header {
+.main-header {
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header__logo {
-  padding-right: 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
+
 .header__button {
+  box-sizing: border-box;
   width: 180px;
   height: 50px;
   margin-left: 20px;
 }
 .header__button:hover {
-  color: var(--primary-bg-color);
-  scale: 1.04;
+  color: var(--second-color);
+  border: 1px solid var(--second-color);
+  background: var(--primary-bg-color);
 }
 .logo__img {
   width: 50px;
@@ -28,14 +25,13 @@
   text-align: center;
   color: var(--second-color);
 }
-.header__menu {
+.header__navbar {
   display: flex;
+  justify-content: space-between;
 }
 .header__list {
-  display: flex;
-  height: 50px;
+  display: inherit;
   align-items: center;
-  justify-content: space-between;
 }
 .header__list li {
   padding-left: 30px;

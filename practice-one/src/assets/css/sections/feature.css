@@ -15,6 +15,11 @@
   background: var(--primary-bg-color);
   box-shadow: 0px 20px 60px 0px var(--shadow-color);
 }
+.feature:hover {
+  scale: 1.02;
+  box-shadow: #640def1a 5px 5px, #3835f04d 8px 8px, #2e31f033 12px 12px,
+    #5424f11a 18px 18px, #2127e208 22px 22px;
+}
 .feature:nth-child(2) {
   transform: translateY(40px);
 }
