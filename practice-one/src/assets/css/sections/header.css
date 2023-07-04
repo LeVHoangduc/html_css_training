@@ -1,4 +1,4 @@
-.header {
+.main-header {
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -6,13 +6,15 @@
 }
 
 .header__button {
+  box-sizing: border-box;
   width: 180px;
   height: 50px;
   margin-left: 20px;
 }
 .header__button:hover {
-  color: var(--primary-bg-color);
-  opacity: 0.9;
+  color: var(--second-color);
+  border: 1px solid var(--second-color);
+  background: var(--primary-bg-color);
 }
 .logo__img {
   width: 50px;

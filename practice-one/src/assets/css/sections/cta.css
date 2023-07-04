@@ -38,7 +38,9 @@
   text-align: center;
 }
 .cta__button:hover {
-  opacity: 0.9;
+  color: var(--primary-bg-color);
+  border: 1px solid var(--primary-bg-color);
+  background: var(--second-color);
 }
 .cta__img {
   position: absolute;

@@ -29,6 +29,7 @@
   height: 502px;
 }
 .hero__button:hover {
-  color: var(--primary-bg-color);
-  opacity: 0.8;
+  color: var(--second-color);
+  border: 1px solid var(--second-color);
+  background: var(--primary-bg-color);
 }
