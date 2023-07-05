@@ -28,6 +28,7 @@
   flex-shrink: 0;
 }
 .logo__text {
+  width: 100px;
   text-align: center;
   color: var(--second-color);
 }
