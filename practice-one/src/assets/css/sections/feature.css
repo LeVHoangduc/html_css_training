@@ -45,3 +45,18 @@
 .decoration--feature {
   top: 270px;
 }
+.sprite {
+  background: url("../../images/feature/sprite.png") no-repeat top left;
+  min-width: 120px;
+  min-height: 120px;
+}
+.sprite.flexible-responsive {
+  background-position: 0 0;
+}
+.sprite.pixel-perfect {
+  background-position: -130px 0;
+  width: 121px;
+}
+.sprite.reusable-components {
+  background-position: -261px 0;
+}
