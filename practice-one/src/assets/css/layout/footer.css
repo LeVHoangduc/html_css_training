@@ -6,14 +6,17 @@
 }
 .footer__logo {
   display: flex;
-  gap: 10px;
-  align-items: center;
 }
-.footer__logo .logo__content {
+.logo__content {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../images/footer/logo-background.png");
+}
+.logo__content a {
   color: var(--second-color);
-  background: var(--shadow-color);
-  box-shadow: 0 0 0 15px var(--shadow-color);
-  cursor: pointer;
 }
 .footer__list {
   display: flex;
