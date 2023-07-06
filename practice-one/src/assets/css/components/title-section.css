@@ -1,8 +1,8 @@
-.titleElement {
+.title-section {
   text-transform: uppercase;
   position: relative;
 }
-.titleElement::before {
+.title-section::before {
   content: "";
   width: 80px;
   height: 2px;
