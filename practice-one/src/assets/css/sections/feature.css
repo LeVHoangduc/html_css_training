@@ -21,10 +21,10 @@
     #5424f11a 18px 18px, #2127e208 22px 22px;
 }
 .feature:nth-child(2) {
-  transform: translateY(40px);
+  margin-top: 40px;
 }
 .feature:last-child {
-  transform: translateY(80px);
+  margin-top: 80px;
 }
 .feature__header {
   display: flex;
