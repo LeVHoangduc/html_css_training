@@ -6,6 +6,7 @@
 }
 .footer__logo {
   display: flex;
+  height: 50px;
 }
 .logo__content {
   width: 200px;
