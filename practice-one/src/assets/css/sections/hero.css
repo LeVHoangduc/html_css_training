@@ -2,10 +2,6 @@
   width: 600px;
   height: 120px;
   color: var(--gray-color);
-  font-size: 40px;
-  font-family: "Muli";
-  font-weight: var(--fw-semibold);
-  line-height: 60px;
   letter-spacing: 1px;
 }
 .hero__description {
