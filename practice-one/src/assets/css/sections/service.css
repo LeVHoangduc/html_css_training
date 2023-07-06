@@ -5,10 +5,10 @@
   font-weight: var(--fw-normal);
 }
 .services__list {
-  padding-top: 50px;
   display: flex;
-  gap: 40px;
   flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 50px;
 }
 .service {
   box-sizing: border-box;
@@ -24,7 +24,6 @@
 .service img {
   width: 80px;
   height: 80px;
-  flex-shrink: 0;
 }
 .service__content {
   color: var(--third-color);
