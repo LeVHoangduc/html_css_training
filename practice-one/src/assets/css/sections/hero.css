@@ -1,3 +1,6 @@
+.hero {
+  position: relative;
+}
 .hero__title {
   width: 600px;
   height: 120px;
@@ -13,7 +16,7 @@
 .hero__img {
   position: absolute;
   left: 521px;
-  top: 80px;
+  top: 48px;
 }
 .hero__img img {
   width: 599px;
