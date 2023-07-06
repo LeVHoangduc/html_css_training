@@ -1,11 +1,14 @@
 .feedbacks {
   box-sizing: border-box;
-  padding-top: 208px;
+  margin-top: 208px;
   display: flex;
   gap: 40px;
 }
 .feedback {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   flex-basis: 540px;
   flex-shrink: 0;
   background: var(--primary-bg-color);
@@ -34,7 +37,6 @@
   line-height: 30px;
 }
 .feedback__content {
-  padding-top: 40px;
   line-height: 30px;
 }
 .feedback:hover {

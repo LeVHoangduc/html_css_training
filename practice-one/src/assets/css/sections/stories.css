@@ -3,8 +3,8 @@
 }
 .stories__list {
   display: flex;
-  padding-top: 60px;
   gap: 150px;
+  margin-top: 60px;
 }
 .story,
 .story__second {
