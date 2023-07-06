@@ -17,10 +17,8 @@
   display: flex;
   gap: 20px;
 }
-.story__header h2 {
-  color: #111111;
-  font-weight: var(--fw-semibold);
-  text-transform: none;
+.story__title {
+  color: var(--black-color);
 }
 .story__content {
   display: flex;
