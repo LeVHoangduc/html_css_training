@@ -1,6 +1,6 @@
 /* || Button Component */
 .btn {
-  color: var(--primary-bg-color);
+  box-sizing: border-box;
   display: flex;
   font-family: "Muli";
   justify-content: center;
@@ -9,6 +9,34 @@
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
+}
+.btn--primary {
+  width: 180px;
+  height: 50px;
+  color: var(--primary-bg-color);
   background: #1968fc;
-  text-shadow: 0px 10px 40px 0px rgba(25, 104, 252, 0.2);
+}
+.btn--primary:hover,
+.btn--secondary:hover {
+  color: var(--second-color);
+  border: 1px solid var(--second-color);
+  background: var(--primary-bg-color);
+}
+.btn--secondary {
+  width: 300px;
+  height: 50px;
+  color: var(--primary-bg-color);
+  background: #1968fc;
+}
+.btn--secondary {
+  width: 320px;
+  height: 50px;
+  font-weight: var(--fw-bold);
+  color: var(--second-color);
+  background: var(--primary-bg-color);
+}
+.btn--secondary:hover {
+  color: var(--primary-bg-color);
+  background: var(--second-color);
+  border: 1px solid var(--primary-bg-color);
 }
