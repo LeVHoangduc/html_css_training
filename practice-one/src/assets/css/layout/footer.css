@@ -14,6 +14,7 @@
   justify-content: center;
   align-items: center;
   background: url("../../images/footer/logo-background.png");
+  background-size: 200px 50px;
 }
 .logo__content a {
   color: var(--second-color);
