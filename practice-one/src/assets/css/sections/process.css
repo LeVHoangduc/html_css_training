@@ -5,11 +5,14 @@
 .steps {
   display: flex;
   gap: 80px;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 .step {
   box-sizing: border-box;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   flex-basis: 320px;
   height: 220px;
   padding: 40px;
@@ -30,9 +33,6 @@
   width: 40px;
   height: 36px;
   flex-shrink: 0;
-}
-.step__content {
-  margin-top: 20px;
 }
 .step:nth-child(2) {
   margin-top: 40px;
