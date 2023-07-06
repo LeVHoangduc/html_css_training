@@ -38,7 +38,6 @@
 }
 .footer__social {
   display: flex;
-  cursor: pointer;
 }
 .footer__icon {
   display: flex;

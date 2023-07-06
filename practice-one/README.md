@@ -27,68 +27,58 @@
 
 ## Folder structure
 
-practice-one
+html_css_training
 
-|-- src
-|-- assets
-|-- icons
-|-- ...
-|-- images
-|-- ...
-|-- css
-|-- bases
-|-- global.css
-|-- reset.css
-|-- bases
-|-- index.css
-|-- reset.css
-|-- components
-|-- button.css
-|-- card.css
-|-- decoration.css
-|-- titleElement.css
-|-- sections
-|-- cta.css
-|-- feature.css
-|-- feedback.css
-|-- footer.css
-|-- header.css
-|-- hero.css
-|-- process.css
-|-- stories.css
-|-- users.css
-|-- service.css
-|-- utils
-|-- variables.css
-|-- main.css
-|-- index.html
-|-- fonts
-|-- images
-|-- .gitignore
-|-- package.json
+```
+
+|-- practice-one
+    |-- src
+        |-- assets
+            |-- css
+                |--bases
+                |--components
+                |--layout
+                |--sections
+                |--utils
+                 main.css
+            |-- fonts
+            |-- images
+        |-- index.html
+    |-- .gitignore
+    |-- package-lock.json
+    |-- package.json
+    |-- README.md
 |-- README.md
+
+```
 
 ## Getting started
 
 - Step 01: Clone repository with HTTPS:
 
 ```
-git clone -b feature/practice-one https://github.com/LeVHoangduc/html_css_training/tree/feature/practice-one
+git clone <https://github.com/LeVHoangduc/html_css_training>
 ```
 
 - Step 02: Move to folder which just cloned in your computer:
 
 ```
-cd practice-one
+cd html_css_training
 ```
 
-- Step 03: Open terminal and type:
+- Step 03: Step 03: Change to branch feature/practice_two:
+
+```
+git checkout feature/practice-one
+```
+
+- Step 04: Install dependencies:
 
 ```
 npm install
 ```
 
-- Step 04: Finally run with:
+- Step 05: Finally run with:
 
 ```
 npm start
