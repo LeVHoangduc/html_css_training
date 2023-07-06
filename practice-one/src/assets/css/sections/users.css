@@ -1,6 +1,12 @@
 .users {
   margin-top: 79px;
 }
+.user__title {
+  color: var(--primary-color);
+  font-weight: var(--fw-bold);
+  line-height: 40px;
+  text-transform: uppercase;
+}
 .users__list {
   display: flex;
   flex-wrap: wrap;

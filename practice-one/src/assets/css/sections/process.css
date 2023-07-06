@@ -51,7 +51,6 @@
   border-color: var(--second-color);
   border-top-style: dashed;
 }
-
 .step:hover {
   scale: 1.02;
   box-shadow: #640def1a 5px 5px, #3835f04d 8px 8px, #2e31f033 12px 12px,
