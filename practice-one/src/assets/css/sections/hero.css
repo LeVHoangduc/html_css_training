@@ -13,12 +13,6 @@
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.hero__button {
-  box-sizing: border-box;
-  width: 300px;
-  height: 50px;
-  position: relative;
-}
 .hero__img {
   position: absolute;
   left: 521px;

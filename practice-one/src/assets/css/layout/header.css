@@ -4,23 +4,11 @@
   justify-content: space-between;
   align-items: center;
 }
-
-.header__button {
-  box-sizing: border-box;
-  width: 180px;
-  height: 50px;
-  margin-left: 20px;
-}
 .header__logo {
   padding-right: 20px;
   display: flex;
   align-items: center;
   gap: 10px;
-}
-.header__button:hover {
-  color: var(--second-color);
-  border: 1px solid var(--second-color);
-  background: var(--primary-bg-color);
 }
 .logo__img {
   width: 50px;
@@ -39,6 +27,7 @@
 .header__list {
   display: inherit;
   align-items: center;
+  margin-right: 20px;
 }
 .header__list li {
   padding-left: 30px;

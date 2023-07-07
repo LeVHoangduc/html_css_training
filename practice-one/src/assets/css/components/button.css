@@ -1,14 +1,37 @@
 /* || Button Component */
 .btn {
-  color: var(--primary-bg-color);
+  box-sizing: border-box;
   display: flex;
-  font-family: "Muli";
   justify-content: center;
   align-items: center;
-  font-weight: var(--fw-bold);
+  height: 50px;
+  color: var(--primary-bg-color);
+  background: var(--second-color);
   font-size: 14px;
+  font-family: "Muli";
+  font-weight: var(--fw-bold);
   line-height: 20px;
   text-transform: uppercase;
-  background: #1968fc;
-  text-shadow: 0px 10px 40px 0px rgba(25, 104, 252, 0.2);
+}
+.btn--primary {
+  width: 180px;
+}
+.btn--primary:hover,
+.btn--secondary:hover {
+  color: var(--second-color);
+  border: 1px solid var(--second-color);
+  background: var(--primary-bg-color);
+}
+.btn--secondary {
+  width: 300px;
+}
+.btn--light {
+  width: 320px;
+  color: var(--second-color);
+  background: var(--primary-bg-color);
+}
+.btn--light:hover {
+  color: var(--primary-bg-color);
+  background: var(--second-color);
+  border: 1px solid var(--primary-bg-color);
 }
