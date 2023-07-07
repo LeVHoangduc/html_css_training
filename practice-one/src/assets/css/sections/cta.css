@@ -1,0 +1,58 @@
+.cta {
+  box-sizing: border-box;
+  position: relative;
+  height: 450px;
+  margin-top: 120px;
+  background: var(--second-color);
+}
+.cta__title {
+  color: var(--primary-bg-color);
+  font-weight: var(--fw-bold);
+}
+.cta__content {
+  box-sizing: border-box;
+  display: flex;
+  padding: 80px 0;
+}
+.cta__information {
+  display: flex;
+  flex-direction: column;
+}
+.cta__information p {
+  width: 640px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: var(--primary-bg-color);
+  font-weight: var(--fw-normal);
+  line-height: 40px;
+}
+.cta__information h1 {
+  color: var(--primary-bg-color);
+  font-weight: var(--fw-bold);
+}
+.cta__button {
+  box-sizing: border-box;
+  width: 320px;
+  height: 50px;
+  color: var(--second-color);
+  background: var(--primary-bg-color);
+  line-height: 40px;
+  font-weight: var(--fw-bold);
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+.cta__button:hover {
+  color: var(--primary-bg-color);
+  border: 1px solid var(--primary-bg-color);
+  background: var(--second-color);
+}
+.cta__img {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.cta__information .title-section::before {
+  background: var(--primary-bg-color);
+  box-shadow: 0px 2px 0px 0px #6a9eff;
+}
