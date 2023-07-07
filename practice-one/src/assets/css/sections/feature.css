@@ -17,8 +17,7 @@
 }
 .feature:hover {
   scale: 1.02;
-  box-shadow: #640def1a 5px 5px, #3835f04d 8px 8px, #2e31f033 12px 12px,
-    #5424f11a 18px 18px, #2127e208 22px 22px;
+  box-shadow: #640def1a 5px 5px, #3835f04d 8px 8px, #2e31f033 12px 12px, #5424f11a 18px 18px, #2127e208 22px 22px;
 }
 .feature:nth-child(2) {
   margin-top: 40px;
@@ -32,9 +31,8 @@
   background: #f3f7ff;
 }
 .feature__header img {
-  flex-basis: 120px;
+  width: 120px;
   height: 120px;
-  flex-shrink: 0;
 }
 .feature__header h3 {
   padding: 20px;
@@ -46,7 +44,7 @@
   top: 270px;
 }
 .sprite {
-  background: url("../../images/feature/sprite.png") no-repeat top left;
+  background: url("../../images/sprite.png") no-repeat top left;
   min-width: 120px;
   min-height: 120px;
 }
