@@ -19,7 +19,7 @@
 
 - Timeline: 2023/07/12 – 2023/07/21
 - Editor: Visual Studio Code
-- Supported browser: Chrome, MS Edge lasted
+- Supported browser: Chrome,  MS Edge lasted
 
 ## Folder structure
 
