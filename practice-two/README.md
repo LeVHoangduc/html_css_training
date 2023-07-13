@@ -54,7 +54,7 @@ git clone <https://github.com/LeVHoangduc/html_css_training>
 cd html_css_training
 ```
 
-- Step 03: Step 03: Change to branch feature/practice_two:
+- Step 03: Change to branch feature/practice_two:
 
 ```
 git checkout feature/practice-two
