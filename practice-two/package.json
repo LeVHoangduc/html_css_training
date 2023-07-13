@@ -18,6 +18,7 @@
     "posthtml-include": "^1.7.4"
   },
   "dependencies": {
+    "boxicons": "^2.1.4",
     "posthtml": "^0.16.6"
   }
 }

@@ -1,0 +1,95 @@
+.main-header {
+  display: grid;
+  grid-template-areas: "header__logo navbar";
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  grid-area: header__logo;
+  padding-right: 20px;
+}
+.logo__text {
+  width: 100px;
+  color: var(--second-color);
+  text-align: center;
+}
+.navbar {
+  align-self: center;
+  grid-area: navbar;
+}
+.navbar__mobile {
+  display: none;
+}
+.navbar__mobile__list {
+  display: none;
+  grid-area: navbar__mobile__list;
+}
+.navbar__mobile__list.active {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90vw;
+  margin-top: 25px;
+  margin-right: 20px;
+  padding: 16px;
+  padding-left: 30px;
+  background: var(--primary-bg-color);
+  border-radius: 15px;
+  box-shadow: var(--shadow-color) 0 8px 24px;
+}
+.header__button {
+  display: none;
+  grid-area: header__button;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .main-header {
+    grid-template-areas: "navbar header__logo header__button";
+  }
+  .navbar__mobile__list.active {
+    left: 0;
+    right: unset;
+    margin-left: 20px;
+    margin-right: 0;
+  }
+  .navbar__mobile__list .btn {
+    display: none;
+  }
+  .navbar__button {
+    display: none;
+  }
+  .header__button {
+    display: block;
+    align-self: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: var(--container-big-lg);
+    margin: 0 auto;
+  }
+  .main-header {
+    grid-template-areas: unset;
+    display: flex;
+    margin-top: 30px;
+  }
+  .label__icon {
+    display: none;
+  }
+  .navbar__mobile__list {
+    display: flex;
+    gap: 30px;
+  }
+  .navbar__button {
+    display: block;
+    align-self: center;
+  }
+  .header__button {
+    display: none;
+  }
+}
