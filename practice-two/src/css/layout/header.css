@@ -27,6 +27,9 @@
   display: none;
   grid-area: navbar__mobile__list;
 }
+.navbar__button {
+  display: none;
+}
 .navbar__mobile__list.active {
   position: absolute;
   right: 0;
@@ -42,29 +45,13 @@
   border-radius: 15px;
   box-shadow: var(--shadow-color) 0 8px 24px;
 }
-.header__button {
-  display: none;
-  grid-area: header__button;
-}
+
 @media (min-width: 768px) and (max-width: 992px) {
   .main-header {
-    grid-template-areas: "navbar header__logo header__button";
-  }
-  .navbar__mobile__list.active {
-    left: 0;
-    right: unset;
-    margin-left: 20px;
-    margin-right: 0;
+    grid-template-areas: "header__logo navbar";
   }
   .navbar__mobile__list .btn {
     display: none;
-  }
-  .navbar__button {
-    display: none;
-  }
-  .header__button {
-    display: block;
-    align-self: center;
   }
 }
 
@@ -88,8 +75,5 @@
   .navbar__button {
     display: block;
     align-self: center;
-  }
-  .header__button {
-    display: none;
   }
 }
