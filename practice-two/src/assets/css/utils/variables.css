@@ -18,9 +18,9 @@
   --shadow-color: #3145f419;
   --shadow-sm-color: #11111a1a;
 
-  --width-81: 81%;
-  --width-90: 90%;
-  --width-full: 100%;
+  --width-small: 81%;
+  --width-medium: 90%;
+  --width-large: 100%;
 
   --screen-md: 768px;
   --screen-small-lg: 1120px;
