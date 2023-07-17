@@ -7,10 +7,6 @@
   margin-top: 86px;
 }
 
-.container--lg {
-  width: var(--width-full);
-}
-
 @media (min-width: 992px) {
   .container {
     width: var(--width-90);
