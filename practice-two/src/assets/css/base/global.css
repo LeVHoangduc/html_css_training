@@ -1,0 +1,30 @@
+.container {
+  max-width: 100%;
+  width: 81%;
+
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 86px;
+}
+
+.container--lg {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: var(--container-big-lg);
+    max-width: 100%;
+  }
+  .content {
+    margin-top: 140px;
+  }
+}
