@@ -1,0 +1,25 @@
+.container {
+  width: 81%;
+  max-width: var(--screen-md);
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 86px;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 90%;
+    max-width: var(--screen-lg);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: var(--screen-big-lg);
+  }
+  .content {
+    margin-top: 140px;
+  }
+}
