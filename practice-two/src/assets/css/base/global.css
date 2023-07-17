@@ -1,5 +1,5 @@
 .container {
-  width: var(--width-81);
+  width: var(--width-small);
   margin: 0 auto;
 }
 
@@ -9,7 +9,7 @@
 
 @media (min-width: 992px) {
   .container {
-    width: var(--width-90);
+    width: var(--width-medium);
   }
 }
 
