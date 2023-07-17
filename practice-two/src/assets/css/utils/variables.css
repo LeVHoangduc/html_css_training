@@ -16,4 +16,8 @@
   --dark-color: #111111;
   --light-color: #ffffff;
   --shadow-color: #3145f419;
+  --shadow-sm-color: #11111a1a;
+
+  --container-small-lg: 90%;
+  --container-big-lg: 1120px;
 }
