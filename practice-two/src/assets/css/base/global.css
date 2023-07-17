@@ -1,5 +1,4 @@
 .container {
-  max-width: 100%;
   width: 81%;
   margin: 0 auto;
 }
@@ -14,14 +13,13 @@
 
 @media (min-width: 992px) {
   .container {
-    max-width: 90%;
+    width: 90%;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
     width: var(--container-big-lg);
-    max-width: 100%;
   }
   .content {
     margin-top: 140px;
