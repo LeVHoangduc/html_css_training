@@ -2,13 +2,19 @@
   #CSS VARIABLES
 \*------------------------------------*/
 :root {
+  /* Font               */
   --primary-font: "Muli";
+  /* End font           */
+
+  /* Sizing             */
   --fw-bold: 700;
   --fw-semibold: 600;
   --fw-normal: 400;
   --fw-light: 300;
   --fw-extralight: 200;
+  /* End sizing         */
 
+  /* Color              */
   --primary-color: #1968fa;
   --second-color: #1968fc;
   --third-color: #000000;
@@ -16,4 +22,12 @@
   --dark-color: #111111;
   --light-color: #ffffff;
   --shadow-color: #3145f419;
+  --shadow-sm-color: #11111a1a;
+  /* End color          */
+
+  /* Screen widths      */
+  --screen-md: 768px;
+  --screen-lg: 992px;
+  --screen-big-lg: 1120px;
+  /* End screen widths  */
 }
