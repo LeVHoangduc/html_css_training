@@ -1,5 +1,6 @@
 .container {
-  width: var(--width-small);
+  width: 81%;
+  max-width: var(--screen-md);
   margin: 0 auto;
 }
 
@@ -9,13 +10,14 @@
 
 @media (min-width: 992px) {
   .container {
-    width: var(--width-medium);
+    width: 90%;
+    max-width: var(--screen-lg);
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    width: var(--screen-small-lg);
+    max-width: var(--screen-big-lg);
   }
   .content {
     margin-top: 140px;
