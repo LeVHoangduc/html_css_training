@@ -58,6 +58,10 @@
   box-shadow: var(--shadow-color) 0 8px 24px;
 }
 
+.navbar__link {
+  line-height: 50px;
+}
+
 @media (min-width: 992px) {
   .main-header {
     display: flex;
