@@ -1,6 +1,6 @@
 const label = document.querySelector(".label__icon");
 const button_menu = document.querySelector(".navbar__mobile");
-const menu = document.querySelector(".navbar__mobile__list");
+const menu = document.querySelector(".navbar__list");
 
 button_menu.addEventListener("change", function () {
   console.log(button_menu.checked);

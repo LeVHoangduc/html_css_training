@@ -25,11 +25,16 @@
   align-self: center;
 }
 
+.navbar__menu {
+  width: 30px;
+  height: 30px;
+}
+
 .navbar__mobile {
   display: none;
 }
 
-.navbar__mobile__list {
+.navbar__list {
   grid-area: navbar__mobile__list;
   display: none;
 }
@@ -38,7 +43,7 @@
   display: none;
 }
 
-.navbar__mobile__list.active {
+.navbar__list.active {
   position: absolute;
   top: 110%;
   right: 0;
@@ -61,7 +66,7 @@
   .label__icon {
     display: none;
   }
-  .navbar__mobile__list {
+  .navbar__list {
     display: flex;
     gap: 30px;
   }
@@ -78,7 +83,7 @@
   .label__icon {
     display: none;
   }
-  .navbar__mobile__list {
+  .navbar__list {
     display: flex;
     gap: 30px;
   }
