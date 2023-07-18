@@ -1,5 +1,5 @@
 const label = document.querySelector(".label__icon");
-const button_menu = document.querySelector(".navbar__mobile");
+const button_menu = document.querySelector(".navbar__menu");
 const menu = document.querySelector(".navbar__list");
 
 button_menu.addEventListener("change", function () {
