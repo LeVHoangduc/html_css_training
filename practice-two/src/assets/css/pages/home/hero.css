@@ -1,8 +1,8 @@
-.hero__mobile > .row {
+.hero__small > .row {
   row-gap: 86px;
 }
 
-.hero__desktop {
+.hero__large {
   display: none;
 }
 
@@ -61,11 +61,11 @@
     display: none;
   }
 
-  .hero__mobile {
+  .hero__small {
     display: none;
   }
 
-  .hero__desktop {
+  .hero__large {
     position: relative;
     display: block;
     height: 555px;
