@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+.container--lg {
+  width: 100%;
+}
+
 .content {
   margin-top: 86px;
 }
@@ -12,6 +16,10 @@
   .container {
     width: 90%;
     max-width: var(--screen-lg);
+  }
+
+  .container--lg {
+    width: 90%;
   }
 }
 
