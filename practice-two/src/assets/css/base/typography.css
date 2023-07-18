@@ -75,11 +75,7 @@ h3 {
   font-weight: var(--fw-normal);
   line-height: 40px;
 }
-.text--desc {
-  font-size: 20px;
-  font-weight: var(--fw-bold);
-  line-height: 40px;
-}
+
 .text--uppercase {
   text-transform: uppercase;
 }
