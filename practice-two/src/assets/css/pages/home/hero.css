@@ -1,7 +1,3 @@
-.hero__mobile.container {
-  width: 100%;
-}
-
 .hero__mobile > .row {
   row-gap: 86px;
 }
@@ -43,10 +39,6 @@
 }
 
 @media (min-width: 992px) {
-  .hero__mobile.container {
-    width: 90%;
-  }
-
   .hero__content {
     width: 100%;
   }
