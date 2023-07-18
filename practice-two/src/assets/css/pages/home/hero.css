@@ -36,6 +36,7 @@
 
 .hero__banner__content {
   width: 81%;
+  font-weight: var(--fw-bold);
 }
 
 @media (min-width: 992px) {
