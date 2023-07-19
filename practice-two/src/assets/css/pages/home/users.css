@@ -36,4 +36,12 @@
   .users {
     margin-top: 79px;
   }
+
+  .users__title--lg {
+    display: block;
+  }
+
+  .users__title {
+    display: none;
+  }
 }
