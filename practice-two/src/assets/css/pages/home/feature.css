@@ -76,7 +76,7 @@
   }
 
   .feature__image {
-    max-width: 120px;
+    min-width: 120px;
     width: 120px;
     height: 120px;
   }
