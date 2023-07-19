@@ -25,9 +25,9 @@
 }
 
 .feature__image {
-  max-width: 80px;
+  min-width: 80px;
   width: 80px;
-  height: 80px;
+  height: 100%;
 }
 
 .feature__title {
