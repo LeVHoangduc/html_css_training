@@ -49,16 +49,16 @@ h3 {
   color: var(--dark-color);
 }
 
-.text--primary {
-  color: var(--primary-color);
+.text--blue {
+  color: var(--cerulean-blue-color);
 }
 
-.text--second {
-  color: var(--second-color);
+.text--dodger-blue {
+  color: var(--dodger-blue-color);
 }
 
-.text--third {
-  color: var(--third-color);
+.text--black {
+  color: var(--black-color);
 }
 
 .text--xxs {
