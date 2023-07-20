@@ -40,46 +40,71 @@ h3 {
   font-family: "Muli";
   color: var(--gray-color);
 }
+
 .text--light {
   color: var(--light-color);
 }
+
 .text--dark {
   color: var(--dark-color);
 }
+
 .text--primary {
   color: var(--primary-color);
 }
+
 .text--second {
   color: var(--second-color);
 }
+
+.text--third {
+  color: var(--third-color);
+}
+
 .text--xxs {
   font-size: 12px;
   font-weight: var(--fw-bold);
   line-height: 20px;
 }
+
 .text--sm {
   font-size: 14px;
   font-weight: var(--fw-semibold);
   line-height: 20px;
 }
+
 .text--base {
   font-size: 16px;
 }
+
 .text--lg {
   font-size: 18px;
   font-weight: var(--fw-semibold);
   line-height: 30px;
 }
+
 .text--xl {
   font-size: 20px;
   font-weight: var(--fw-normal);
   line-height: 40px;
 }
 
+.text--bold {
+  font-weight: var(--fw-bold);
+}
+
+.text--center {
+  width: 100%;
+  text-align: center;
+}
+
 .text--uppercase {
   text-transform: uppercase;
 }
 
+.text--italic {
+  font-style: italic;
+}
 /*-----------------------------------------*\
     #SET FONT FAMILY
   \*-----------------------------------------*/
