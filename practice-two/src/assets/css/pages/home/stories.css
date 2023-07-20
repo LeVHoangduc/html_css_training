@@ -32,7 +32,7 @@
   gap: 30px;
   flex-direction: column;
   margin-left: 60px;
-  color: var(--third-color);
+  color: var(--black-color);
 }
 
 .story__content {
@@ -44,7 +44,7 @@
 }
 
 .story__link {
-  color: var(--third-color);
+  color: var(--black-color);
   font-weight: var(--fw-normal);
   line-height: 30px;
   text-decoration: underline;
