@@ -9,7 +9,7 @@
   text-transform: uppercase;
 }
 
-.users__title--lg {
+.users__title--active {
   display: none;
 }
 
@@ -37,7 +37,7 @@
     margin-top: 79px;
   }
 
-  .users__title--lg {
+  .users__title--active {
     display: block;
   }
 
