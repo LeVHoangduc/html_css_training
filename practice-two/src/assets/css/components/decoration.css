@@ -19,7 +19,7 @@
   background: var(--bg-transparent-sm-color);
 }
 
-.layout__background__center {
+.layout__background--center {
   position: relative;
   width: 50%;
   height: 50%;
