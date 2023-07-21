@@ -17,6 +17,14 @@
   margin-top: 86px;
 }
 
+.active {
+  display: none !important;
+}
+
+.inactive {
+  display: block !important;
+}
+
 @media (min-width: 992px) {
   .container {
     width: 90%;
@@ -35,5 +43,13 @@
 
   .content {
     margin-top: 140px;
+  }
+
+  .active {
+    display: block !important;
+  }
+
+  .inactive {
+    display: none !important;
   }
 }
