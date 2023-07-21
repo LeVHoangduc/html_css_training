@@ -26,17 +26,17 @@
 .btn--secondary:hover {
   color: var(--second-color);
   border: 1px solid var(--second-color);
-  background: var(--primary-bg-color);
+  background: var(--light-color);
 }
 
 .btn--light {
   width: 320px;
   color: var(--second-color);
-  background: var(--primary-bg-color);
+  background: var(--light-color);
 }
 
 .btn--light:hover {
-  color: var(--primary-bg-color);
+  color: var(--light-color);
   background: var(--second-color);
-  border: 1px solid var(--primary-bg-color);
+  border: 1px solid var(--light-color);
 }
