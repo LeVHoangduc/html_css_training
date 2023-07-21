@@ -6,28 +6,28 @@
   height: 25px;
 }
 
-.decoration--layout {
+.layout {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.decoration--top {
+.layout__background {
   position: relative;
   width: 80%;
   height: 80%;
   background: var(--bg-transparent-sm-color);
 }
 
-.decoration--middle {
+.layout__background--center {
   position: relative;
   width: 50%;
   height: 50%;
-  background: var(--second-color);
+  background: var(--dodger-blue-color);
   transform: translate(100%, 100%);
 }
 
-.decoration--bottom {
+.layout__layer {
   position: absolute;
   width: 60%;
   height: 60%;
