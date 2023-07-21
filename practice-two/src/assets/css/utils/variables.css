@@ -15,9 +15,9 @@
   /* End sizing         */
 
   /* Color              */
-  --cerulean-blue-color: #1968fa;
-  --dodger-blue-color: #1968fc;
-  --black-color: #000000;
+  --title-color: #1968fa;
+  --button-color: #1968fc;
+  --navigation-color: #000000;
   --gray-color: #11223f;
   --dark-color: #111111;
   --light-color: #ffffff;
