@@ -3,7 +3,7 @@
 }
 
 .user__title {
-  background: var(--light-color);
+  color: var(--cerulean-blue-color);
   font-weight: var(--fw-bold);
   line-height: 40px;
   text-transform: uppercase;
