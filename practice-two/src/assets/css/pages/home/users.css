@@ -3,7 +3,7 @@
 }
 
 .user__title {
-  color: var(--primary-color);
+  background: var(--light-color);
   font-weight: var(--fw-bold);
   line-height: 40px;
   text-transform: uppercase;
@@ -23,7 +23,7 @@
   flex-direction: column;
   gap: 20px;
   padding: 20px;
-  background: var(--primary-bg-color);
+  background: var(--light-color);
   box-shadow: 0px 20px 60px 0px var(--shadow-color);
 }
 
