@@ -57,14 +57,6 @@
     column-gap: 40px;
   }
 
-  .step:nth-child(2) {
-    margin-top: 40px;
-  }
-
-  .step:last-child {
-    margin-top: 80px;
-  }
-
   .step:first-child::before,
   .step:nth-child(2)::before {
     top: 50%;
@@ -86,6 +78,14 @@
 
   .step {
     height: 220px;
+  }
+
+  .step:nth-child(2) {
+    margin-top: 40px;
+  }
+
+  .step:last-child {
+    margin-top: 80px;
   }
 
   .step:first-child::before,
