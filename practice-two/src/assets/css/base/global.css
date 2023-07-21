@@ -9,6 +9,10 @@
   margin: 0 auto;
 }
 
+.container--lg {
+  width: 100%;
+}
+
 .content {
   margin-top: 86px;
 }
@@ -18,12 +22,17 @@
     width: 90%;
     max-width: var(--screen-lg);
   }
+
+  .container--lg {
+    width: 90%;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: var(--screen-big-lg);
   }
+
   .content {
     margin-top: 140px;
   }
