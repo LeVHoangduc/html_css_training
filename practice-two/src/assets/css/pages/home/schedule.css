@@ -3,9 +3,9 @@
 }
 
 .schedule__wrapper {
+  position: relative;
   width: 100%;
   background: var(--dodger-blue-color);
-  position: relative;
 }
 
 .schedule__title {
