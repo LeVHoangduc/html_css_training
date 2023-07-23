@@ -32,7 +32,12 @@
 }
 
 .schedule__image {
-  display: none;
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 .schedule__information .title-section::before {
@@ -49,13 +54,5 @@
     width: 640px;
     margin-top: 60px;
     margin-bottom: 40px;
-  }
-  .schedule__image {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 0;
-    max-inline-size: 100%;
-    block-size: auto;
   }
 }
