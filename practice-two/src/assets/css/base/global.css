@@ -17,11 +17,11 @@
   margin-top: 86px;
 }
 
-.active {
+.show {
   display: none !important;
 }
 
-.inactive {
+.hide {
   display: block !important;
 }
 
@@ -45,11 +45,11 @@
     margin-top: 140px;
   }
 
-  .active {
+  .show {
     display: block !important;
   }
 
-  .inactive {
+  .hide {
     display: none !important;
   }
 }
