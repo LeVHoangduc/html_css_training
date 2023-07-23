@@ -39,10 +39,6 @@
   font-weight: var(--fw-normal);
 }
 
-.story__content--active {
-  display: none;
-}
-
 .story__link {
   color: var(--black-color);
   font-weight: var(--fw-normal);
@@ -52,16 +48,6 @@
 
 .story--second {
   gap: 20px;
-}
-
-@media (min-width: 992px) {
-  .story__content--inactive {
-    display: none;
-  }
-
-  .story__content--active {
-    display: block;
-  }
 }
 
 @media (min-width: 1200px) {
