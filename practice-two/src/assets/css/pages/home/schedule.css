@@ -5,7 +5,7 @@
 .schedule__wrapper {
   position: relative;
   width: 100%;
-  background: var(--dodger-blue-color);
+  background: var(--button-color);
 }
 
 .schedule__title {
@@ -42,7 +42,7 @@
 
 .schedule__information .title-section::before {
   background: var(--light-color);
-  box-shadow: 0px 2px 0px 0px var(--dodger-blue-color);
+  box-shadow: 0px 2px 0px 0px var(--button-color);
 }
 
 @media (min-width: 1200px) {
