@@ -43,9 +43,7 @@
   .btn--secondary {
     width: 300px;
   }
-}
 
-@media (min-width: 992px) {
   .btn--light {
     width: 320px;
   }

@@ -1,5 +1,5 @@
 .schedule {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .schedule__wrapper {
@@ -15,7 +15,7 @@
 
 .schedule__content {
   display: flex;
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 .schedule__information {
@@ -32,7 +32,7 @@
 }
 
 .schedule__image {
-  display: block;
+  display: none;
   position: absolute;
   top: 20px;
   right: 0;
@@ -50,9 +50,19 @@
     height: 570px;
     margin-top: 120px;
   }
+
   .schedule__description {
     width: 640px;
     margin-top: 60px;
     margin-bottom: 40px;
+  }
+
+  .schedule__content {
+    display: flex;
+    padding: 80px 0;
+  }
+
+  .schedule__image {
+    display: block;
   }
 }
