@@ -25,12 +25,12 @@
   align-self: center;
 }
 
-.navbar__icon {
+.navbar__menu {
   width: 30px;
   height: 30px;
 }
 
-.navbar__menu {
+.navbar__mobile {
   display: none;
 }
 
