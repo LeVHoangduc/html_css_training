@@ -1,7 +1,7 @@
 .main-footer {
   margin-top: 60px;
   padding: 40px 40px 0 40px;
-  background: #fbfbfb;
+  background: var(--bg-transparent-md-color);
 }
 
 .footer__logo {
