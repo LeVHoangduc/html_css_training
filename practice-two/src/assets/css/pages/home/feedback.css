@@ -35,6 +35,10 @@
   justify-self: end;
 }
 
+.feedback__image {
+  max-width: 100%;
+}
+
 .feedback__person {
   width: 60%;
   max-width: 100%;
