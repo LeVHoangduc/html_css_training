@@ -15,9 +15,9 @@
   /* End sizing         */
 
   /* Color              */
-  --primary-color: #1968fa;
-  --second-color: #1968fc;
-  --third-color: #000000;
+  --title-color: #1968fa;
+  --button-color: #1968fc;
+  --navigation-color: #000000;
   --gray-color: #11223f;
   --dark-color: #111111;
   --light-color: #ffffff;
@@ -26,6 +26,7 @@
   --shadow-light-color: #d1e1fe;
   --bg-transparent-sm-color: #3749f117;
   --bg-transparent-color: #1429f033;
+  --bg-pale-blue-color: #f3f7ff;
   /* End color          */
 
   /* Screen widths      */

@@ -1,0 +1,149 @@
+.main-footer {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 110px;
+}
+
+.footer__wrapper {
+  margin: 0 auto;
+}
+
+.footer__logo {
+  display: flex;
+  height: 50px;
+}
+
+.logo__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  background: url("../../../images/logo-background.png");
+  background-size: 200px 50px;
+}
+
+.footer__navbar {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.footer__list {
+  display: grid;
+  row-gap: 20px;
+}
+
+.footer__link {
+  cursor: pointer;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+}
+
+.footer__icon {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.footer__icon--facebook {
+  justify-content: end;
+}
+
+.footer__icon--instagram {
+  justify-content: start;
+}
+
+.footer__image {
+  grid-column: 12;
+  justify-self: end;
+  align-self: end;
+  width: 55px;
+  height: 60px;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .main-footer {
+    max-width: var(--screen-lg);
+  }
+  .footer__wrapper {
+    grid-template-areas: "logo__footer logo__menu logo__socials footer__image ";
+    gap: 20px;
+  }
+
+  .footer__logo {
+    grid-area: logo__footer;
+    grid-column: 1;
+  }
+
+  .footer__navbar {
+    grid-area: logo__menu;
+    grid-column: 2;
+    margin: unset;
+  }
+
+  .footer__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+    height: 50px;
+  }
+
+  .footer__link {
+    display: flex;
+    justify-content: center;
+    margin: unset;
+  }
+
+  .footer__social {
+    grid-area: logo__socials;
+    grid-column: 3;
+    justify-content: center;
+    gap: unset;
+    margin-left: 10px;
+  }
+
+  .footer__social {
+    justify-content: center;
+    gap: unset;
+  }
+
+  .footer__icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer__icon--facebook,
+  .footer__icon--instagram {
+    justify-content: center;
+  }
+
+  .footer__image {
+    grid-column: 4;
+    width: 90px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-footer {
+    max-width: var(--screen-big-lg);
+  }
+
+  .footer__navbar {
+    margin-left: 50px;
+  }
+
+  .footer__list {
+    width: 480px;
+  }
+
+  .footer__link {
+    flex-basis: 120px;
+  }
+}

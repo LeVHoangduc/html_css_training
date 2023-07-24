@@ -15,12 +15,14 @@
   box-shadow: var(--shadow-color) 0px 8px 24px;
 }
 
-.feedback__header.row {
-  justify-items: unset;
+.feedback__header {
+  column-gap: 15px;
 }
 
 .feedback__photo {
-  min-width: 100px;
+  width: 50%;
+  max-width: 100px;
+  object-fit: cover;
   height: 100px;
 }
 
@@ -31,11 +33,13 @@
 
 .feedback__icon {
   justify-self: end;
-  min-width: 70px;
 }
 
 .feedback__person {
+  width: 60%;
+  max-width: 100%;
   padding-left: 20px;
+  word-wrap: break-word;
 }
 
 .feedback__position {
@@ -44,13 +48,18 @@
   line-height: 30px;
 }
 
-.feedback__content {
-  line-height: 30px;
-}
-
 .feedback:hover {
   box-shadow: var(--shadow-sm-color) 0px 4px 20px, var(--shadow-sm-color) 0px 12px 52px,
     var(--shadow-sm-color) 0px 20px 76px;
+}
+
+@media (min-width: 640px) {
+  .feedback__person {
+    min-width: 340px;
+  }
+  .feedback__photo {
+    min-width: 100px;
+  }
 }
 
 @media (min-width: 992px) {

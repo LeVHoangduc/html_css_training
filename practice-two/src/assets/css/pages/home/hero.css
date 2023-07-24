@@ -74,14 +74,12 @@
 
   .hero__title {
     width: 600px;
-    height: 120px;
     color: var(--gray-color);
     letter-spacing: 1px;
   }
 
   .hero__description {
-    width: 650px;
-    height: 120px;
+    width: 620px;
     margin-top: 20px;
     margin-bottom: 40px;
   }
@@ -99,8 +97,8 @@
   }
 
   .hero__button:hover {
-    color: var(--second-color);
-    border: 1px solid var(--second-color);
+    color: var(--button-color);
     background: var(--light-color);
+    border: 1px solid var(--button-color);
   }
 }

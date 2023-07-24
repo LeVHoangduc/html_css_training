@@ -3,14 +3,10 @@
 }
 
 .user__title {
-  background: var(--light-color);
+  color: var(--title-color);
   font-weight: var(--fw-bold);
   line-height: 40px;
   text-transform: uppercase;
-}
-
-.users__title--active {
-  display: none;
 }
 
 .users__list {
@@ -35,13 +31,5 @@
 @media (min-width: 992px) {
   .users {
     margin-top: 79px;
-  }
-
-  .users__title--active {
-    display: block;
-  }
-
-  .users__title {
-    display: none;
   }
 }

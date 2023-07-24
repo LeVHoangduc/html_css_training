@@ -23,7 +23,7 @@
   position: relative;
   width: 50%;
   height: 50%;
-  background: var(--dodger-blue-color);
+  background: var(--button-color);
   transform: translate(100%, 100%);
 }
 

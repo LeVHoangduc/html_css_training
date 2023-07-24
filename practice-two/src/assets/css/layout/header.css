@@ -16,7 +16,7 @@
 
 .logo__text {
   width: 100px;
-  color: var(--second-color);
+  color: var(--button-color);
   text-align: center;
 }
 
@@ -25,12 +25,12 @@
   align-self: center;
 }
 
-.navbar__icon {
+.navbar__menu {
   width: 30px;
   height: 30px;
 }
 
-.navbar__menu {
+.navbar__mobile {
   display: none;
 }
 
@@ -58,10 +58,6 @@
   box-shadow: var(--shadow-color) 0 8px 24px;
 }
 
-.navbar__link {
-  line-height: 50px;
-}
-
 @media (min-width: 992px) {
   .main-header {
     display: flex;
@@ -72,7 +68,6 @@
   }
   .navbar__list {
     display: flex;
-    gap: 30px;
   }
   .navbar__button {
     display: block;
@@ -84,15 +79,28 @@
   .main-header {
     margin-top: 30px;
   }
+
   .label__icon {
     display: none;
   }
+
   .navbar__list {
     display: flex;
-    gap: 30px;
+    align-items: center;
+    justify-content: center;
   }
+
+  .navbar__link {
+    width: 120px;
+  }
+
+  .navbar__link:nth-child(4) {
+    width: 180px;
+  }
+
   .navbar__button {
     display: block;
     align-self: center;
+    margin-left: 20px;
   }
 }
