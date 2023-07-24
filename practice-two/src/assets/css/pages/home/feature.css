@@ -35,7 +35,7 @@
 }
 
 .feature__content {
-  padding: 40px;
+  padding: 30px 40px;
 }
 
 .feature:first-child::before,
@@ -73,6 +73,10 @@
 
   .feature {
     height: 290px;
+  }
+
+  .feature__content {
+    padding: 40px;
   }
 
   .feature__image {
