@@ -2,10 +2,6 @@
   margin-top: 120px;
 }
 
-.services__title--active {
-  display: none;
-}
-
 .services__list {
   row-gap: 40px;
   margin-top: 50px;
@@ -38,13 +34,5 @@
 @media (min-width: 992px) {
   .services__list {
     column-gap: 40px;
-  }
-
-  .services__title--active {
-    display: block;
-  }
-
-  .services__title {
-    display: none;
   }
 }
