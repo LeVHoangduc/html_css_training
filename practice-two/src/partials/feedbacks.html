@@ -1,0 +1,28 @@
+<div class="feedbacks container">
+  <div class="row">
+    <include
+      src="partials/components/feedback.html"
+      locals='{
+      "feedback__photo": "assets/images/man.png",
+      "feedback__icon": "assets/icons/quote.svg",
+      "feedback__alt": "person",
+      "feedback__person": "John Doe",
+      "feedback__position": "CEO, PrettyDopeDesigns",
+      "feedback__content": "“Our senior frontend developer was 70% faster in building React.js components thanks to VanGoux!”",
+      "alt__icon": "quote"
+      }'
+    ></include>
+    <include
+      src="partials/components/feedback.html"
+      locals='{
+      "feedback__photo": "assets/images/woman.png",
+      "feedback__icon": "assets/icons/quote.svg",
+      "feedback__alt": "person",
+      "feedback__person": "Jane Goodman",
+      "feedback__position": "Founder, ImpactNation",
+      "feedback__content": "“It was awesome to see VanGoux turn our MVP designs into code within minutes.”",
+      "alt__icon": "quote"
+      }'
+    ></include>
+  </div>
+</div>
