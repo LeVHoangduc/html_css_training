@@ -16,7 +16,7 @@
 
 .logo__text {
   width: 100px;
-  color: var(--second-color);
+  color: var(--button-color);
   text-align: center;
 }
 

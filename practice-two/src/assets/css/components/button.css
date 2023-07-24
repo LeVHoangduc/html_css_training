@@ -5,13 +5,14 @@
   align-items: center;
   height: 50px;
   color: var(--light-color);
-  background: var(--second-color);
+  background: var(--button-color);
   border: none;
   font-size: 14px;
   font-family: "Muli";
   font-weight: var(--fw-bold);
   line-height: 20px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .btn--primary {
@@ -24,19 +25,19 @@
 
 .btn--primary:hover,
 .btn--secondary:hover {
-  color: var(--second-color);
-  border: 1px solid var(--second-color);
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
   background: var(--light-color);
 }
 
 .btn--light {
   width: 320px;
-  color: var(--second-color);
+  color: var(--button-color);
   background: var(--light-color);
 }
 
 .btn--light:hover {
   color: var(--light-color);
-  background: var(--second-color);
+  background: var(--button-color);
   border: 1px solid var(--light-color);
 }

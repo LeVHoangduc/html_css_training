@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: var(--second-color);
+  color: var(--button-color);
 }
 
 h1 {
@@ -50,11 +50,11 @@ h3 {
 }
 
 .text--blue {
-  color: var(--cerulean-blue-color);
+  color: var(--title-color);
 }
 
-.text--dodger-blue {
-  color: var(--dodger-blue-color);
+.text--button {
+  color: var(--button-color);
 }
 
 .text--black {

@@ -46,7 +46,7 @@
   left: 6%;
   width: 60px;
   border-width: 3px;
-  border-color: var(--second-color);
+  border-color: var(--button-color);
   border-top-style: dashed;
   transform: rotate(90deg);
 }
