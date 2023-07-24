@@ -10,7 +10,7 @@
 .story {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .story__header {
@@ -60,6 +60,7 @@
   }
 
   .story {
+    gap: 30px;
     width: 480px;
   }
 
