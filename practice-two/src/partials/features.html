@@ -1,0 +1,32 @@
+<section class="features container">
+  <h2 class="title-section text">Features</h2>
+  <div class="row feature__list">
+    <include
+      src="partials/components/feature.html"
+      locals='{
+      "feature__image": "assets/images/pixel-perfect.png",
+      "feature__alt": "perfect",
+      "feature__title": "Pixel perfect output",
+      "feature__content": "Crisp, pixel-perfect landing pages without bothering your developers"
+      }'
+    ></include>
+    <include
+      src="partials/components/feature.html"
+      locals='{
+      "feature__image": "assets/images/flexible-responsive.png",
+      "feature__alt": "responsive",
+      "feature__title": "Flexible & responsive",
+      "feature__content": "Your web pages will flexibly adapt to different browser window sizes"
+      }'
+    ></include>
+    <include
+      src="partials/components/feature.html"
+      locals='{
+      "feature__image": "assets/images/reusable-components.png",
+      "feature__alt": "component",
+      "feature__title": "Complete code freedom",
+      "feature__content": "VanGoux gives you source code of your website, so you can add your own logic"
+      }'
+    ></include>
+  </div>
+</section>
