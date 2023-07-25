@@ -11,6 +11,7 @@
   font-weight: var(--fw-bold);
   line-height: 20px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .btn--primary {
