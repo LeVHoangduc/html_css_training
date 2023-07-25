@@ -14,12 +14,10 @@
 }
 
 .schedule__content {
-  display: flex;
   padding: 60px 0;
 }
 
 .schedule__information {
-  display: flex;
   flex-direction: column;
 }
 
@@ -32,10 +30,12 @@
 }
 
 .schedule__image {
-  display: none;
   position: absolute;
   top: 20px;
   right: 0;
+}
+
+.schedule__image--img {
   max-inline-size: 100%;
   block-size: auto;
 }
@@ -58,11 +58,6 @@
   }
 
   .schedule__content {
-    display: flex;
     padding: 80px 0;
-  }
-
-  .schedule__image {
-    display: block;
   }
 }
