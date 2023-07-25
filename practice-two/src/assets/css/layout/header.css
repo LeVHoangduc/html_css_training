@@ -8,8 +8,6 @@
 
 .header__logo {
   grid-area: header__logo;
-  /* display: flex;
-  align-items: center; */
   gap: 10px;
   padding-right: 20px;
 }
