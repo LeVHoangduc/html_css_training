@@ -70,15 +70,15 @@
 }
 
 @media (max-width: 992px) {
-  .navbar__menu:hover .navbar__icon--close {
+  .navbar:hover .navbar__icon--close {
     display: none;
   }
 
-  .navbar__menu:hover .navbar__icon--open {
+  .navbar:hover .navbar__icon--open {
     display: block;
   }
 
-  .navbar__menu:hover .navbar__list {
+  .navbar:hover .navbar__list {
     position: absolute;
     top: 110%;
     right: 0;
