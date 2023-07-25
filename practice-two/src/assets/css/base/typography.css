@@ -1,6 +1,3 @@
-/*-----------------------------------------*\
-  #TYPOGRAPHY ELEMENT
-\*-----------------------------------------*/
 p {
   font-family: "Muli";
   color: var(--gray-color);
@@ -8,6 +5,7 @@ p {
   font-weight: var(--fw-normal);
   line-height: 1.875;
 }
+
 a {
   text-decoration: none;
 }
@@ -21,12 +19,14 @@ h1 {
   font-family: "Muli";
   line-height: 1.5;
 }
+
 h2 {
   font-size: 1.875rem;
   font-family: "Muli";
   font-weight: var(--fw-normal);
   line-height: 2;
 }
+
 h3 {
   font-size: 1.25rem;
   font-family: "Muli";
@@ -34,9 +34,6 @@ h3 {
   line-height: 1.5;
 }
 
-/*-----------------------------------------*\
-    #TEXT CLASSES
-  \*-----------------------------------------*/
 .text {
   font-family: "Muli";
   color: var(--gray-color);
@@ -106,20 +103,6 @@ h3 {
 .text--italic {
   font-style: italic;
 }
-/*-----------------------------------------*\
-    #SET FONT FAMILY
-  \*-----------------------------------------*/
-
-@font-face {
-  font-family: "Muli";
-  src: url("../../fonts/Muli-LightItalic.eot");
-  src: url("../../fonts/Muli-LightItalic.eot?#iefix") format("embedded-opentype"),
-    url("../../fonts/Muli-LightItalic.woff2") format("woff2"), url("../../fonts/Muli-LightItalic.woff") format("woff"),
-    url("../../fonts/Muli-LightItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
 
 @font-face {
   font-family: "Muli";
@@ -144,57 +127,11 @@ h3 {
 
 @font-face {
   font-family: "Muli";
-  src: url("../../fonts/Muli-BoldItalic.eot");
-  src: url("../../fonts/Muli-BoldItalic.eot?#iefix") format("embedded-opentype"),
-    url("../../fonts/Muli-BoldItalic.woff2") format("woff2"), url("../../fonts/Muli-BoldItalic.woff") format("woff"),
-    url("../../fonts/Muli-BoldItalic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Muli";
-  src: url("../../fonts/Muli-ExtraLight.eot");
-  src: url("../../fonts/Muli-ExtraLight.eot?#iefix") format("embedded-opentype"),
-    url("../../fonts/Muli-ExtraLight.woff2") format("woff2"), url("../../fonts/Muli-ExtraLight.woff") format("woff"),
-    url("../../fonts/Muli-ExtraLight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Muli";
   src: url("../../fonts/Muli-SemiBold.eot");
   src: url("../../fonts/Muli-SemiBold.eot?#iefix") format("embedded-opentype"),
     url("../../fonts/Muli-SemiBold.woff2") format("woff2"), url("../../fonts/Muli-SemiBold.woff") format("woff"),
     url("../../fonts/Muli-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Muli";
-  src: url("../../fonts/Muli-ExtraLightItalic.eot");
-  src: url("../../fonts/Muli-ExtraLightItalic.eot?#iefix") format("embedded-opentype"),
-    url("../../fonts/Muli-ExtraLightItalic.woff2") format("woff2"),
-    url("../../fonts/Muli-ExtraLightItalic.woff") format("woff"),
-    url("../../fonts/Muli-ExtraLightItalic.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Muli";
-  src: url("../../fonts/Muli-Semi-BoldItalic.eot");
-  src: url("../../fonts/Muli-Semi-BoldItalic.eot?#iefix") format("embedded-opentype"),
-    url("../../fonts/Muli-Semi-BoldItalic.woff2") format("woff2"),
-    url("../../fonts/Muli-Semi-BoldItalic.woff") format("woff"),
-    url("../../fonts/Muli-Semi-BoldItalic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic;
   font-display: swap;
 }
