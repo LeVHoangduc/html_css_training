@@ -17,6 +17,19 @@
   margin-top: 86px;
 }
 
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
 @media (min-width: 992px) {
   .container {
     width: 90%;
@@ -25,6 +38,23 @@
 
   .container--lg {
     width: 90%;
+  }
+
+  .center--lg {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .d-lg-block {
+    display: block;
+  }
+
+  .d-lg-none {
+    display: none;
+  }
+
+  .d-lg-flex {
+    display: flex;
   }
 }
 
@@ -35,5 +65,22 @@
 
   .content {
     margin-top: 140px;
+  }
+
+  .center--xl {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .d-xl-block {
+    display: block;
+  }
+
+  .d-xl-none {
+    display: none;
+  }
+
+  .d-xl-flex {
+    display: flex;
   }
 }
