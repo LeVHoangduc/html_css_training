@@ -19,7 +19,6 @@
 }
 
 .feature__header {
-  display: flex;
   align-items: center;
   background: var(--bg-pale-blue-color);
 }
