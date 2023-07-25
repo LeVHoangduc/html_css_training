@@ -62,6 +62,12 @@
     margin-left: 1.25em;
   }
 }
+@media (min-width: 576px) {
+  .navbar__icon {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+}
 
 @media (max-width: 992px) {
   .navbar__menu:hover .navbar__icon--close {
