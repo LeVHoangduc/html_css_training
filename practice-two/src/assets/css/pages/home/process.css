@@ -9,7 +9,6 @@
 
 .step {
   position: relative;
-  display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 40px;
@@ -18,7 +17,6 @@
 }
 
 .step__header {
-  display: flex;
   justify-content: space-between;
 }
 
