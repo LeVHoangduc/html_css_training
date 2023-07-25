@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 .container {
   width: 81%;
   max-width: var(--screen-md);
@@ -14,7 +18,7 @@
 }
 
 .content {
-  margin-top: 86px;
+  margin-top: 60px;
 }
 
 .center {
@@ -28,6 +32,16 @@
 
 .d-none {
   display: none;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 16px;
+  }
+
+  .content {
+    margin-top: 86px;
+  }
 }
 
 @media (min-width: 992px) {

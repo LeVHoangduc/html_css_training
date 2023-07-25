@@ -37,11 +37,15 @@
   grid-column: auto / span 10;
 }
 
+.col-11 {
+  grid-column: auto / span 11;
+}
+
 .col-12 {
   grid-column: auto / span 12;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .col-md-1 {
     grid-column: auto / span 1;
   }

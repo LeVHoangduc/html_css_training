@@ -5,7 +5,7 @@
 
 .title-section::before {
   content: "";
-  width: 80px;
+  width: 40px;
   height: 2px;
   position: absolute;
   top: 117%;
@@ -13,8 +13,13 @@
   box-shadow: 0px 2px 0px 0px var(--shadow-light-color);
 }
 
+@media (min-width: 576px) {
+  .title-section::before {
+    width: 80px;
+  }
+}
 @media (min-width: 1200px) {
   .title-section::before {
-    left: -40px;
+    left: -3.75rem;
   }
 }

@@ -8,7 +8,7 @@
 }
 
 .hero__description {
-  margin-top: 20px;
+  margin-top: 1.25em;
   margin-bottom: 35px;
 }
 
@@ -68,8 +68,8 @@
 
   .hero__description {
     width: 620px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 1.25em;
+    margin-bottom: 2.5em;
   }
 
   .hero__wrapper {

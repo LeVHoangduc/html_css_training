@@ -6,10 +6,10 @@
   color: var(--light-color);
   background: var(--button-color);
   border: none;
-  font-size: 14px;
+  font-size: 0.875em;
   font-family: "Muli";
   font-weight: var(--fw-bold);
-  line-height: 20px;
+  line-height: 1.4;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -19,7 +19,7 @@
 }
 
 .btn--secondary {
-  width: 100%;
+  width: 58%;
 }
 
 .btn--primary:hover,
@@ -30,6 +30,7 @@
 }
 
 .btn--light {
+  width: 62%;
   color: var(--button-color);
   background: var(--light-color);
 }
@@ -40,7 +41,7 @@
   border: 1px solid var(--light-color);
 }
 
-@media (min-width: 640px) {
+@media (min-width: 576px) {
   .btn--secondary {
     width: 300px;
   }

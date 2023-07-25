@@ -1,5 +1,5 @@
 .schedule {
-  margin-top: 60px;
+  margin-top: 3.75em;
 }
 
 .schedule__wrapper {
@@ -14,7 +14,7 @@
 }
 
 .schedule__content {
-  padding: 60px 0;
+  padding: 3.75em 0;
 }
 
 .schedule__information {
@@ -23,15 +23,14 @@
 
 .schedule__description {
   margin-top: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 3.75em;
   color: var(--light-color);
   font-weight: var(--fw-normal);
-  line-height: 40px;
 }
 
 .schedule__image {
   position: absolute;
-  top: 20px;
+  top: 1.25em;
   right: 0;
 }
 
@@ -53,8 +52,8 @@
 
   .schedule__description {
     width: 640px;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 3.75em;
+    margin-bottom: 3.75em;
   }
 
   .schedule__content {

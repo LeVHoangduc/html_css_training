@@ -5,10 +5,10 @@ const menu = document.querySelector(".navbar__list");
 button_menu.addEventListener("change", function () {
   console.log(button_menu.checked);
   if (button_menu.checked) {
-    label.innerHTML = `<box-icon name='minus'  color="#1968fc" style="width: 30px; height: 30px"></box-icon>`;
+    label.innerHTML = `<box-icon name='minus'  color="#1968fc" style="width: 1.875em; height: 1.875em"></box-icon>`;
     menu.classList.toggle("active");
   } else {
-    label.innerHTML = `<box-icon name="menu" color="#1968fc" style="width: 30px; height: 30px"></box-icon>`;
+    label.innerHTML = `<box-icon name="menu" color="#1968fc" style="width: 1.875em; height: 1.875em"></box-icon>`;
     menu.classList.toggle("active");
   }
 });

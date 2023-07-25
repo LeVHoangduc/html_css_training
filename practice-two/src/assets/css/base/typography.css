@@ -4,8 +4,9 @@
 p {
   font-family: "Muli";
   color: var(--gray-color);
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  font-weight: var(--fw-normal);
+  line-height: 1.875;
 }
 a {
   text-decoration: none;
@@ -15,22 +16,22 @@ a:hover {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: var(--fw-semibold);
   font-family: "Muli";
-  line-height: 60px;
+  line-height: 1.5;
 }
 h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: "Muli";
   font-weight: var(--fw-normal);
-  line-height: 60px;
+  line-height: 2;
 }
 h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Muli";
   font-weight: var(--fw-semibold);
-  line-height: 30px;
+  line-height: 1.5;
 }
 
 /*-----------------------------------------*\
@@ -62,31 +63,31 @@ h3 {
 }
 
 .text--xxs {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: var(--fw-bold);
-  line-height: 20px;
+  line-height: 1.7;
 }
 
 .text--sm {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: var(--fw-semibold);
-  line-height: 20px;
+  line-height: 1.4;
 }
 
 .text--base {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .text--lg {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: var(--fw-semibold);
-  line-height: 30px;
+  line-height: 1.7;
 }
 
 .text--xl {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: var(--fw-normal);
-  line-height: 40px;
+  line-height: 2;
 }
 
 .text--bold {
