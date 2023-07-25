@@ -8,13 +8,12 @@
 }
 
 .story {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   gap: 20px;
 }
 
 .story__header {
-  display: flex;
   gap: 20px;
 }
 
@@ -28,7 +27,6 @@
 }
 
 .story__body {
-  display: flex;
   gap: 30px;
   flex-direction: column;
   margin-left: 60px;
