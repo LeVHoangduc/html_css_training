@@ -1,19 +1,20 @@
 .process {
-  margin-top: 120px;
+  /* margin-top: 120px; */
+  margin-top: 7.5rem;
 }
 
 .steps {
-  row-gap: 2.5em;
-  margin-top: 3.75em;
+  row-gap: 2.5rem;
+  margin-top: 3.75rem;
 }
 
 .step {
   position: relative;
   flex-direction: column;
-  gap: 10px;
-  padding: 2.5em;
+  gap: 0.625rem;
+  padding: 2.5rem;
   background: var(--light-color);
-  box-shadow: 0px 20px 3.75em 0px var(--shadow-color);
+  box-shadow: var(--shadow-color) 0 0.5rem 1.5rem;
 }
 
 .step__header {
@@ -21,16 +22,16 @@
 }
 
 .step__upload {
-  font-size: 1.125em;
+  font-size: 1.125rem;
   font-weight: var(--fw-bold);
   line-height: 2.2;
   text-transform: uppercase;
 }
 
 .step__icon {
-  max-width: 2.5em;
-  width: 2.5em;
-  height: 36px;
+  max-width: 2.5rem;
+  width: 2.5rem;
+  height: 2.25rem;
 }
 
 .step:first-child::before,
@@ -38,45 +39,46 @@
   content: "";
   position: absolute;
   top: 110%;
-  width: 2.5em;
-  border-width: 3px;
+  width: 2.5rem;
+  border-width: 0.1875rem;
   border-color: var(--button-color);
   border-top-style: dashed;
   transform: rotate(90deg);
 }
 
 .step:hover {
-  box-shadow: var(--shadow-sm-color) 0px 4px 20px, var(--shadow-sm-color) 0px 12px 52px,
-    var(--shadow-sm-color) 0px 20px 76px;
+  box-shadow: var(--shadow-sm-color) 0 0.25rem 1.25rem, var(--shadow-sm-color) 0 0.75rem 3.25rem,
+    var(--shadow-sm-color) 0 1.25rem 4.75rem;
 }
 
 @media (min-width: 992px) {
   .steps {
-    column-gap: 2.5em;
+    column-gap: 2.5rem;
   }
 
   .step:first-child::before,
   .step:nth-child(2)::before {
     top: 50%;
     left: 100%;
-    width: 2.5em;
+    width: 2.5rem;
     transform: unset;
   }
 }
 
 @media (min-width: 1200px) {
   .process {
-    height: 415px;
+    margin-top: 4.5rem;
+    height: 25.9375rem;
   }
 
   .steps {
-    column-gap: 80px;
-    margin-top: 50px;
+    column-gap: 5rem;
+    margin-top: 3.125rem;
   }
 
   .step {
     gap: 1.25em;
-    height: 220px;
+    height: 13.75rem;
   }
 
   .step:nth-child(2) {
@@ -84,13 +86,13 @@
   }
 
   .step:last-child {
-    margin-top: 80px;
+    margin-top: 5rem;
   }
 
   .step:first-child::before,
   .step:nth-child(2)::before {
     top: 50%;
-    width: 80px;
+    width: 5rem;
     transform: unset;
   }
 }

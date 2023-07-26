@@ -20,6 +20,6 @@
 }
 @media (min-width: 1200px) {
   .title-section::before {
-    left: -3.75rem;
+    left: -2.5rem;
   }
 }
