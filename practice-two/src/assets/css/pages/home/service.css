@@ -41,6 +41,7 @@
 
   .service {
     min-height: unset;
+    max-height: 5rem;
   }
 }
 
