@@ -7,7 +7,7 @@
 
 .footer__logo {
   height: 3.125rem;
-  margin-left: 1.25rem;
+  padding-left: 1.25rem;
 }
 
 .logo__content {
@@ -17,7 +17,9 @@
 }
 
 .footer__navbar {
-  margin-top: 2.5rem;
+  /* margin-top: 2.5rem; */
+  grid-column: 1/12;
+  padding: 2.5rem 0;
 }
 
 .footer__list {
@@ -33,7 +35,7 @@
 
 .footer__social {
   justify-content: end;
-  gap: 15px;
+  gap: 20px;
 }
 
 .footer__icon {
@@ -142,7 +144,7 @@
   }
 
   .footer__navbar {
-    margin-left: 3.125rem;
+    padding: 0 0 0 3.125rem;
   }
 
   .footer__list {
