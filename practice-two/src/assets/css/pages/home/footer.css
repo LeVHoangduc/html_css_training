@@ -147,7 +147,7 @@
   }
 
   .footer__logo {
-    margin-left: unset;
+    padding-left: unset;
   }
 
   .footer__navbar {
