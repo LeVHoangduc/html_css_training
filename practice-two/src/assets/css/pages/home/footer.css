@@ -1,33 +1,33 @@
 .main-footer {
-  margin-top: 3.75em;
-  padding: 2.5em 2.5em 0 2.5em;
+  max-height: 13.75rem;
+  margin-top: 3.75rem;
+  padding: 2.5rem 2.5rem 0 2.5rem;
   background: var(--bg-transparent-md-color);
 }
 
 .footer__logo {
-  height: 50px;
-  margin-left: 1.25em;
+  height: 3.125rem;
+  margin-left: 1.25rem;
 }
 
 .logo__content {
-  /* width: 100px; */
-  padding-left: 15px;
+  padding-left: 0.9375rem;
   background: url("../../../images/logo-background.png");
-  background-size: 200px 50px;
+  background-size: 12.5rem 3.125rem;
 }
 
 .footer__navbar {
-  margin-top: 2.5em;
+  margin-top: 2.5rem;
 }
 
 .footer__list {
   display: grid;
-  row-gap: 1.25em;
-  max-width: 480px;
+  row-gap: 1.25rem;
+  max-width: 30rem;
 }
 
 .footer__link {
-  height: 50px;
+  height: 3.125rem;
   cursor: pointer;
 }
 
@@ -38,8 +38,8 @@
 
 .footer__icon {
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 
 .footer__icon--facebook {
@@ -54,26 +54,26 @@
   grid-column: 12;
   justify-self: end;
   align-self: end;
-  width: 55px;
-  height: 3.75em;
+  width: 3.4375rem;
+  height: 3.75rem;
   object-fit: cover;
 }
 
 @media (min-width: 576px) {
   .logo__content {
-    width: 200px;
+    width: 12.5rem;
     padding-left: unset;
   }
 }
 
 @media (min-width: 992px) {
   .main-footer > .row {
-    column-gap: 1.25em;
+    column-gap: 1.25rem;
   }
 
   .footer__wrapper {
     grid-template-areas: "logo__footer logo__menu logo__socials footer__image ";
-    gap: 1.25em;
+    gap: 1.25rem;
   }
 
   .footer__logo {
@@ -88,8 +88,8 @@
   }
 
   .footer__list {
-    width: 380px;
-    height: 50px;
+    width: 23.75rem;
+    height: 3.125rem;
   }
 
   .footer__link {
@@ -101,7 +101,7 @@
     grid-column: 3;
     justify-content: center;
     gap: unset;
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
 
   .footer__social {
@@ -110,8 +110,8 @@
   }
 
   .footer__icon {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
   }
 
   .footer__icon--facebook,
@@ -122,14 +122,14 @@
   .footer__image {
     grid-area: footer__image;
     grid-column: 4;
-    width: 90px;
-    height: 100px;
+    width: 5.625rem;
+    height: 6.25rem;
   }
 }
 
 @media (min-width: 1200px) {
   .main-footer {
-    padding: 2.5em 0 0 0;
+    padding: 2.5rem 0 0 0;
   }
 
   .main-footer > .row {
@@ -142,10 +142,10 @@
   }
 
   .footer__navbar {
-    margin-left: 50px;
+    margin-left: 3.125rem;
   }
 
   .footer__list {
-    width: 480px;
+    width: 30rem;
   }
 }

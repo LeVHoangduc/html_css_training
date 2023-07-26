@@ -3,14 +3,12 @@
 }
 
 .stories__list {
-  /* row-gap: 2.5rem; */
   flex-direction: column;
   gap: 2.5rem;
   margin-top: 3.125rem;
 }
 
 .story {
-  /* display: flex; */
   flex-direction: column;
   gap: 1.25rem;
 }
