@@ -15,7 +15,6 @@
 }
 
 .footer__navbar {
-  /* margin-top: 2.5rem; */
   grid-column: 1/12;
   padding: 2.5rem 0;
 }
@@ -33,7 +32,7 @@
 
 .footer__social {
   justify-content: end;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .footer__icon {
