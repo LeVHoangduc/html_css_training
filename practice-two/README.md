@@ -17,7 +17,7 @@
 
 ## Information
 
-- Timeline: 2023/07/12 – 2023/07/21
+- Timeline: 2023/07/12 – 2023/07/25
 - Editor: Visual Studio Code
 - Supported browser: Chrome,  MS Edge lasted
 
@@ -42,7 +42,7 @@ html_css_training
 
 ## Getting started
 
-- Step 01: Clone repository with HTTPS:
+- Step 01: Clone repository:
 
 ```
 git clone <https://github.com/LeVHoangduc/html_css_training>
@@ -58,6 +58,24 @@ cd html_css_training
 
 ```
 git checkout feature/practice-two
+```
+
+- Step 04: Next open folder practice-2
+
+```
+cd practice-2
+```
+
+- Step 05: Install dependencies:
+
+```
+npm install
+```
+
+- Step 06: Finally run with:
+
+```
+npm start
 ```
 
 ## Technical
