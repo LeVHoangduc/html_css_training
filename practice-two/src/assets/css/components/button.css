@@ -6,7 +6,7 @@
   color: var(--light-color);
   background: var(--button-color);
   border: none;
-  font-size: 0.875em;
+  font-size: 0.875rem;
   font-family: "Muli";
   font-weight: var(--fw-bold);
   line-height: 1.4;
@@ -15,7 +15,7 @@
 }
 
 .btn--primary {
-  width: 180px;
+  width: 11.25rem;
 }
 
 .btn--secondary {
@@ -25,7 +25,7 @@
 .btn--primary:hover,
 .btn--secondary:hover {
   color: var(--button-color);
-  border: 1px solid var(--button-color);
+  border: 0.0625rem solid var(--button-color);
   background: var(--light-color);
 }
 
@@ -38,15 +38,15 @@
 .btn--light:hover {
   color: var(--light-color);
   background: var(--button-color);
-  border: 1px solid var(--light-color);
+  border: 0.0625rem solid var(--light-color);
 }
 
 @media (min-width: 576px) {
   .btn--secondary {
-    width: 300px;
+    width: 18.75rem;
   }
 
   .btn--light {
-    width: 320px;
+    width: 20rem;
   }
 }

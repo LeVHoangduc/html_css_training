@@ -2,15 +2,15 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  margin-top: 35px;
+  margin-top: 2.1875rem;
 }
 
 .header__logo {
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .logo__text {
-  width: 50px;
+  width: 3.125rem;
   color: var(--button-color);
   line-height: 1.5;
 }
@@ -32,7 +32,7 @@
 
 @media (min-width: 576px) {
   .logo__text {
-    width: 100px;
+    width: 6.25rem;
   }
 
   .logo__image {
@@ -43,16 +43,16 @@
 
 @media (min-width: 992px) {
   .main-header {
-    margin-top: 35px;
+    margin-top: 2.1875rem;
   }
 
   .navbar__link {
-    width: 120px;
+    width: 7.5rem;
   }
 
   .navbar__button {
     align-self: center;
-    margin-left: 1.25em;
+    margin-left: 1.25rem;
   }
 }
 @media (min-width: 576px) {
@@ -80,23 +80,23 @@
     flex-direction: column;
     gap: 25px;
     width: 50%;
-    padding: 1.875em 0;
+    padding: 1.875rem 0;
     background: var(--light-color);
-    border-radius: 15px;
-    box-shadow: var(--shadow-color) 0 8px 24px;
+    border-radius: 0.9375rem;
+    box-shadow: var(--shadow-color) 0 0.5rem 1.5rem;
   }
 }
 
 @media (min-width: 1200px) {
   .main-header {
-    margin-top: 1.875em;
+    margin-top: 1.875rem;
   }
 
   .navbar__link {
-    width: 120px;
+    width: 7.5rem;
   }
 
   .navbar__link:nth-child(4) {
-    width: 180px;
+    width: 11.25rem;
   }
 }
