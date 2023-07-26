@@ -17,8 +17,8 @@ html {
   width: 100%;
 }
 
-.content {
-  margin-top: 60px;
+.main-content {
+  margin-top: 6rem;
 }
 
 .center {
@@ -39,8 +39,8 @@ html {
     font-size: 16px;
   }
 
-  .content {
-    margin-top: 86px;
+  .main-content {
+    margin-top: 5.375rem;
   }
 }
 
@@ -77,8 +77,8 @@ html {
     max-width: var(--screen-big-lg);
   }
 
-  .content {
-    margin-top: 140px;
+  .main-content {
+    margin-top: 9.375rem;
   }
 
   .center--xl {

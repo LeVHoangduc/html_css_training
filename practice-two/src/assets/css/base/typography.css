@@ -127,6 +127,17 @@ h3 {
 
 @font-face {
   font-family: "Muli";
+  src: url("../../fonts/Muli-ExtraLight.eot");
+  src: url("../../fonts/Muli-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/Muli-ExtraLight.woff2") format("woff2"), url("../../fonts/Muli-ExtraLight.woff") format("woff"),
+    url("../../fonts/Muli-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muli";
   src: url("../../fonts/Muli-SemiBold.eot");
   src: url("../../fonts/Muli-SemiBold.eot?#iefix") format("embedded-opentype"),
     url("../../fonts/Muli-SemiBold.woff2") format("woff2"), url("../../fonts/Muli-SemiBold.woff") format("woff"),

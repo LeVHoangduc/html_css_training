@@ -64,7 +64,7 @@
 
 @media (min-width: 992px) {
   .feedbacks > .row {
-    column-gap: 2.5em;
+    column-gap: 40px;
     margin-top: 0;
   }
 }

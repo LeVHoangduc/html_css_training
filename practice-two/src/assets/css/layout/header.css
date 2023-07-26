@@ -1,13 +1,14 @@
 .main-header {
   position: relative;
-  display: grid;
-  grid-template-areas: "header__logo navbar";
+  /* display: grid;
+  grid-template-areas: "header__logo navbar"; */
+  display: flex;
   justify-content: space-between;
   margin-top: 35px;
 }
 
 .header__logo {
-  grid-area: header__logo;
+  /* grid-area: header__logo; */
   gap: 10px;
 }
 
@@ -24,7 +25,7 @@
 }
 
 .navbar {
-  grid-area: navbar;
+  /* grid-area: navbar; */
   align-self: center;
 }
 
@@ -34,7 +35,7 @@
 }
 
 .navbar__list {
-  grid-area: navbar__mobile__list;
+  /* grid-area: navbar__mobile__list; */
 }
 
 @media (min-width: 576px) {
