@@ -21,13 +21,14 @@ html {
   margin-top: 6rem;
 }
 
-.center {
-  align-items: center;
-  justify-content: center;
-}
-
 .d-flex {
   display: flex;
+}
+
+.d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .d-none {
@@ -54,11 +55,6 @@ html {
     width: 90%;
   }
 
-  .center--lg {
-    align-items: center;
-    justify-content: center;
-  }
-
   .d-lg-block {
     display: block;
   }
@@ -69,6 +65,12 @@ html {
 
   .d-lg-flex {
     display: flex;
+  }
+
+  .d-lg-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -81,11 +83,6 @@ html {
     margin-top: 9.375rem;
   }
 
-  .center--xl {
-    align-items: center;
-    justify-content: center;
-  }
-
   .d-xl-block {
     display: block;
   }
@@ -96,5 +93,11 @@ html {
 
   .d-xl-flex {
     display: flex;
+  }
+
+  .d-xl-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
