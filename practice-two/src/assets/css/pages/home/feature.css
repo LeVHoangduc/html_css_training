@@ -1,5 +1,5 @@
 .features {
-  margin-top: 120px;
+  margin-top: 7.8125rem;
 }
 
 .feature__list {
@@ -10,12 +10,12 @@
 .feature {
   position: relative;
   background: var(--light-color);
-  box-shadow: 0px 20px 3.75rem 0px var(--shadow-color);
+  box-shadow: var(--shadow-color) 0 0.5rem 1.5rem;
 }
 
 .feature:hover {
-  box-shadow: var(--shadow-sm-color) 0px 4px 20px, var(--shadow-sm-color) 0px 12px 52px,
-    var(--shadow-sm-color) 0px 20px 76px;
+  box-shadow: var(--shadow-sm-color) 0 0.25rem 1.25rem, var(--shadow-sm-color) 0 0.75rem 3.25rem,
+    var(--shadow-sm-color) 0 1.25rem 4.75rem;
 }
 
 .feature__header {
@@ -24,8 +24,8 @@
 }
 
 .feature__image {
-  min-width: 80px;
-  width: 80px;
+  min-width: 5rem;
+  width: 5rem;
   height: 100%;
 }
 
@@ -44,7 +44,7 @@
   top: 114%;
   left: 6%;
   width: 3.75rem;
-  border-width: 3px;
+  border-width: 0.1875rem;
   border-color: var(--button-color);
   border-top-style: dashed;
   transform: rotate(90deg);
@@ -63,15 +63,15 @@
 
 @media (min-width: 1200px) {
   .features {
-    margin-top: 115px;
+    margin-top: 7.1875rem;
   }
 
   .feature__list {
-    column-gap: 80px;
+    column-gap: 5rem;
   }
 
   .feature {
-    height: 290px;
+    height: 18.125rem;
   }
 
   .feature__content {
@@ -79,15 +79,15 @@
   }
 
   .feature__image {
-    min-width: 120px;
-    width: 120px;
-    height: 120px;
+    min-width: 7.5rem;
+    width: 7.5rem;
+    height: 7.5rem;
   }
 
   .feature:nth-child(2) {
     margin-top: 2.5rem;
   }
   .feature:last-child {
-    margin-top: 80px;
+    margin-top: 5rem;
   }
 }
