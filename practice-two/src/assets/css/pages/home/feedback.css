@@ -1,25 +1,24 @@
 .feedbacks {
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .feedbacks > .row {
-  row-gap: 50px;
+  row-gap: 3.125rem;
 }
 
 .feedback {
   display: flex;
   flex-direction: column;
-  gap: 2.5em;
+  gap: 2.5rem;
+  padding: 2.5rem;
   background: var(--light-color);
-  padding: 2.5em;
-  box-shadow: var(--shadow-color) 0px 8px 24px;
+  box-shadow: var(--shadow-color) 0 0.5rem 1.5rem;
 }
 
 .feedback__photo {
-  width: 40%;
-  max-width: 100px;
+  width: 30%;
+  height: 6.25rem;
   object-fit: contain;
-  height: 100px;
 }
 
 .feedback__introduction {
@@ -38,33 +37,34 @@
 .feedback__person {
   width: 60%;
   max-width: 100%;
-  padding-left: 1.25em;
-  word-wrap: break-word;
+  padding-left: 1.25rem;
 }
 
 .feedback__position {
-  font-size: 0.875em;
+  font-size: 1rem;
   font-weight: var(--fw-semibold);
   line-height: 2.143;
 }
 
 .feedback:hover {
-  box-shadow: var(--shadow-sm-color) 0px 4px 20px, var(--shadow-sm-color) 0px 12px 52px,
-    var(--shadow-sm-color) 0px 20px 76px;
+  box-shadow: var(--shadow-sm-color) 0 0.25rem 1.25rem, var(--shadow-sm-color) 0 0.75rem 3.25rem,
+    var(--shadow-sm-color) 0 1.25rem 4.75rem;
 }
 
 @media (min-width: 576px) {
-  .feedback__person {
-    min-width: 340px;
-  }
   .feedback__photo {
-    min-width: 100px;
+    width: 6.25rem;
+    min-width: 6.25rem;
+  }
+
+  .feedback__position {
+    font-size: 0.875rem;
   }
 }
 
 @media (min-width: 992px) {
   .feedbacks > .row {
-    column-gap: 40px;
+    column-gap: 2.5rem;
     margin-top: 0;
   }
 }
