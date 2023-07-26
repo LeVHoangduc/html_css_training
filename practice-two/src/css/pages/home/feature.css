@@ -45,7 +45,7 @@
   left: 6%;
   width: 3.75rem;
   border-width: 0.1875rem;
-  border-color: var(--button-color);
+  border-color: var(--secondary-color);
   border-top-style: dashed;
   transform: rotate(90deg);
 }

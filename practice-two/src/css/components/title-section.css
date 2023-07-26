@@ -9,7 +9,7 @@
   height: 0.125rem;
   position: absolute;
   top: 117%;
-  background: var(--button-color);
+  background: var(--secondary-color);
   box-shadow: 0 0.0625rem 0 0 var(--shadow-light-color);
 }
 

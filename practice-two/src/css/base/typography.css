@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: var(--button-color);
+  color: var(--secondary-color);
 }
 
 h1 {
@@ -48,11 +48,11 @@ h3 {
 }
 
 .text--blue {
-  color: var(--title-color);
+  color: var(--primary-color);
 }
 
 .text--button {
-  color: var(--button-color);
+  color: var(--secondary-color);
 }
 
 .text--black {

@@ -11,7 +11,7 @@
 
 .logo__text {
   width: 3.125rem;
-  color: var(--button-color);
+  color: var(--secondary-color);
   line-height: 1.5;
 }
 

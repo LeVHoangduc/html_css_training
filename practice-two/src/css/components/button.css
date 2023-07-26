@@ -1,7 +1,7 @@
 .btn {
   height: 3.125rem;
   color: var(--light-color);
-  background: var(--button-color);
+  background: var(--secondary-color);
   border: none;
   font-size: 0.875rem;
   font-family: "Muli";
@@ -21,20 +21,20 @@
 
 .btn--primary:hover,
 .btn--secondary:hover {
-  color: var(--button-color);
-  border: 0.0625rem solid var(--button-color);
+  color: var(--secondary-color);
+  border: 0.0625rem solid var(--secondary-color);
   background: var(--light-color);
 }
 
 .btn--light {
   width: 62%;
-  color: var(--button-color);
+  color: var(--secondary-color);
   background: var(--light-color);
 }
 
 .btn--light:hover {
   color: var(--light-color);
-  background: var(--button-color);
+  background: var(--secondary-color);
   border: 0.0625rem solid var(--light-color);
 }
 

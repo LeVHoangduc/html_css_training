@@ -23,7 +23,7 @@
   position: relative;
   width: 50%;
   height: 50%;
-  background: var(--button-color);
+  background: var(--secondary-color);
   transform: translate(100%, 100%);
 }
 

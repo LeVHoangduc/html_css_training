@@ -103,8 +103,8 @@
   }
 
   .hero__button:hover {
-    color: var(--button-color);
+    color: var(--secondary-color);
     background: var(--light-color);
-    border: 1rem solid var(--button-color);
+    border: 1rem solid var(--secondary-color);
   }
 }
