@@ -1,4 +1,7 @@
-.hero__small > .row {
+/* .hero__small > .row {
+  row-gap: 8.6rem;
+} */
+.hero > .row {
   row-gap: 8.6rem;
 }
 
@@ -32,7 +35,7 @@
 }
 
 @media (min-width: 576px) {
-  .hero__small > .row {
+  .hero > .row {
     row-gap: 5.375rem;
   }
 
@@ -72,14 +75,19 @@
 }
 
 @media (min-width: 1200px) {
-  .hero__small {
+  /* .hero__small {
     display: none;
-  }
-
-  .hero__large {
+  } */
+  .hero > .row {
     position: relative;
+    display: block;
     height: 34.75rem;
   }
+
+  /* .hero__large {
+    position: relative;
+    height: 34.75rem;
+  } */
 
   .hero__title {
     width: 37.5rem;

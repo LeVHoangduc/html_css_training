@@ -55,14 +55,6 @@ html {
     width: 90%;
   }
 
-  .d-lg-block {
-    display: block;
-  }
-
-  .d-lg-none {
-    display: none;
-  }
-
   .d-lg-flex {
     display: flex;
   }
@@ -71,6 +63,14 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .d-lg-block {
+    display: block;
+  }
+
+  .d-lg-none {
+    display: none;
   }
 }
 
@@ -83,14 +83,6 @@ html {
     margin-top: 9.375rem;
   }
 
-  .d-xl-block {
-    display: block;
-  }
-
-  .d-xl-none {
-    display: none;
-  }
-
   .d-xl-flex {
     display: flex;
   }
@@ -99,5 +91,13 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .d-xl-block {
+    display: block;
+  }
+
+  .d-xl-none {
+    display: none;
   }
 }
