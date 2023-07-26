@@ -106,10 +106,10 @@ h3 {
 
 @font-face {
   font-family: "Muli";
-  src: url("../../fonts/Muli-Bold.eot");
-  src: url("../../fonts/Muli-Bold.eot?#iefix") format("embedded-opentype"),
-    url("../../fonts/Muli-Bold.woff2") format("woff2"), url("../../fonts/Muli-Bold.woff") format("woff"),
-    url("../../fonts/Muli-Bold.ttf") format("truetype");
+  src: url("../../assets/fonts/Muli-Bold.eot");
+  src: url("../../assets/fonts/Muli-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../../assets/fonts/Muli-Bold.woff2") format("woff2"), url("../../assets/fonts/Muli-Bold.woff") format("woff"),
+    url("../../assets/fonts/Muli-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -117,9 +117,10 @@ h3 {
 
 @font-face {
   font-family: "Muli";
-  src: url("../../fonts/Muli.eot");
-  src: url("../../fonts/Muli.eot?#iefix") format("embedded-opentype"), url("../../fonts/Muli.woff2") format("woff2"),
-    url("../../fonts/Muli.woff") format("woff"), url("../../fonts/Muli.ttf") format("truetype");
+  src: url("../../assets/fonts/Muli.eot");
+  src: url("../../assets/fonts/Muli.eot?#iefix") format("embedded-opentype"),
+    url("../../assets/fonts/Muli.woff2") format("woff2"), url("../../assets/fonts/Muli.woff") format("woff"),
+    url("../../assets/fonts/Muli.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -127,10 +128,11 @@ h3 {
 
 @font-face {
   font-family: "Muli";
-  src: url("../../fonts/Muli-ExtraLight.eot");
-  src: url("../../fonts/Muli-ExtraLight.eot?#iefix") format("embedded-opentype"),
-    url("../../fonts/Muli-ExtraLight.woff2") format("woff2"), url("../../fonts/Muli-ExtraLight.woff") format("woff"),
-    url("../../fonts/Muli-ExtraLight.ttf") format("truetype");
+  src: url("../../assets/fonts/Muli-ExtraLight.eot");
+  src: url("../../assets/fonts/Muli-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("../../assets/fonts/Muli-ExtraLight.woff2") format("woff2"),
+    url("../../assets/fonts/Muli-ExtraLight.woff") format("woff"),
+    url("../../assets/fonts/Muli-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -138,10 +140,11 @@ h3 {
 
 @font-face {
   font-family: "Muli";
-  src: url("../../fonts/Muli-SemiBold.eot");
-  src: url("../../fonts/Muli-SemiBold.eot?#iefix") format("embedded-opentype"),
-    url("../../fonts/Muli-SemiBold.woff2") format("woff2"), url("../../fonts/Muli-SemiBold.woff") format("woff"),
-    url("../../fonts/Muli-SemiBold.ttf") format("truetype");
+  src: url("../../assets/fonts/Muli-SemiBold.eot");
+  src: url("../../assets/fonts/Muli-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../../assets/fonts/Muli-SemiBold.woff2") format("woff2"),
+    url("../../assets/fonts/Muli-SemiBold.woff") format("woff"),
+    url("../../assets/fonts/Muli-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;

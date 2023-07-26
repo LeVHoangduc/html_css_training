@@ -23,7 +23,7 @@
 .hero__banner {
   width: 100%;
   height: 18rem;
-  background-image: url("../../../images/background-hero.png");
+  background-image: url("../../../assets/images/background-hero.png");
 }
 
 .hero__banner__content {

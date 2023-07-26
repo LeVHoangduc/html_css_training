@@ -30,11 +30,12 @@ html_css_training
 |-- practice-two
     |-- src
         |-- assets
-            |-- css
-            |-- fonts
-            |-- images
+        |-- css
+        |-- partials
         |-- index.html
     |-- .gitignore
+    |-- package-lock.json
+    |-- package.json
     |-- README.md
 |-- README.md
 
@@ -63,7 +64,7 @@ git checkout feature/practice-two
 - Step 04: Next open folder practice-2
 
 ```
-cd practice-2
+cd practice-two
 ```
 
 - Step 05: Install dependencies:
