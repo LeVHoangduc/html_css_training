@@ -22,8 +22,7 @@
 }
 
 .schedule__description {
-  margin-top: 3.125rem;
-  margin-bottom: 2.375rem;
+  padding: 3.125rem 0 2.375rem 0;
   color: var(--light-color);
   font-weight: var(--fw-normal);
 }
@@ -52,8 +51,7 @@
 
   .schedule__description {
     width: 40rem;
-    margin-top: 3.75rem;
-    margin-bottom: 2.5rem;
+    padding: 3.75rem 0 2.5rem 0;
   }
 
   .schedule__content {

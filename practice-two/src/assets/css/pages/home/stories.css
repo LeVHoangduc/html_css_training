@@ -34,7 +34,7 @@
 .story__body {
   gap: 1.875rem;
   flex-direction: column;
-  margin-left: 3.75rem;
+  padding-left: 3.75rem;
   color: var(--black-color);
 }
 
@@ -82,11 +82,11 @@
   }
 
   .story > .story__body {
-    margin-left: 4.5rem;
+    padding-left: 4.5rem;
   }
 
   .story--second > .story__body {
-    margin-left: 3.9375rem;
+    padding-left: 3.9375rem;
   }
 
   .story--second {
