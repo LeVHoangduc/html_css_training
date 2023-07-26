@@ -27,7 +27,7 @@
     var(--shadow-sm-color) 0 1.25rem 4.75rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .users {
     margin-top: 5rem;
   }
