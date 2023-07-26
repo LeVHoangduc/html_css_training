@@ -1,5 +1,5 @@
 .schedule {
-  margin-top: 3.75em;
+  margin-top: 3.75rem;
 }
 
 .schedule__wrapper {
@@ -14,7 +14,7 @@
 }
 
 .schedule__content {
-  padding: 3.75em 0;
+  padding: 3.75rem 0;
 }
 
 .schedule__information {
@@ -22,15 +22,15 @@
 }
 
 .schedule__description {
-  margin-top: 50px;
-  margin-bottom: 3.75em;
+  margin-top: 3.125rem;
+  margin-bottom: 2.375rem;
   color: var(--light-color);
   font-weight: var(--fw-normal);
 }
 
 .schedule__image {
   position: absolute;
-  top: 1.25em;
+  top: 1.25rem;
   right: 0;
 }
 
@@ -41,22 +41,22 @@
 
 .schedule__information .title-section::before {
   background: var(--light-color);
-  box-shadow: 0px 2px 0px 0px var(--button-color);
+  box-shadow: var(--button-color) 0 0.5rem 1.5rem;
 }
 
 @media (min-width: 1200px) {
   .schedule {
-    height: 570px;
-    margin-top: 120px;
+    height: 35.625rem;
+    margin-top: 7.5rem;
   }
 
   .schedule__description {
-    width: 640px;
-    margin-top: 3.75em;
-    margin-bottom: 3.75em;
+    width: 40rem;
+    margin-top: 3.75rem;
+    margin-bottom: 2.5rem;
   }
 
   .schedule__content {
-    padding: 80px 0;
+    padding: 5rem 0;
   }
 }
