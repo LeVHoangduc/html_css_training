@@ -90,3 +90,13 @@ npm start
 ## Author
 
 - Duc Le
+
+## Reference
+
+- Screens [here](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
+
+- Responsive font sizes [here](https://www.cloudhadoop.com/css-responsive-fontsize#:~:text=CSS%20responsive%20font-size%20best%20practices%20and%20guidelines%201,It%20is%20the%20primary%20font%20size%20More%20items)
+
+- Naming [here](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
+- Pattern structure [here](https://gist.github.com/rveitch/84cea9650092119527bc)
