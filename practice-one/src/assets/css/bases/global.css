@@ -1,0 +1,11 @@
+/*-----------------------------------------*\
+    #GLOBAL CLASSES
+  \*-----------------------------------------*/
+.container {
+  width: 1120px;
+  margin: 0 auto;
+  position: relative;
+}
+.content {
+  margin-top: 140px;
+}
