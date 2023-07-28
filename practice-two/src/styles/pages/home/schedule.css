@@ -11,9 +11,6 @@
 
 .schedule__content {
   padding: 3.75rem 0;
-}
-
-.schedule__information {
   flex-direction: column;
 }
 
@@ -23,7 +20,7 @@
   font-weight: var(--fw-normal);
 }
 
-.schedule__information .title-section::before {
+.schedule__content .title-section::before {
   background: var(--light-color);
   box-shadow: var(--secondary-color) 0 0.5rem 1.5rem;
 }
