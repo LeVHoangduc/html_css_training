@@ -25,14 +25,14 @@ html {
   display: flex;
 }
 
-.d-inline {
-  display: inline;
-}
-
 .d-flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.d-inline {
+  display: inline;
 }
 
 .d-none {
