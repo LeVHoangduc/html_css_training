@@ -31,6 +31,10 @@ html {
   justify-content: center;
 }
 
+.d-inline {
+  display: inline;
+}
+
 .d-none {
   display: none;
 }

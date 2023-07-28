@@ -1,8 +1,8 @@
 .btn {
-  height: 3.125rem;
+  padding: 0.8125rem 1.8125rem;
   color: var(--light-color);
   background: var(--secondary-color);
-  border: none;
+  border: 0.125rem solid transparent;
   font-size: 0.875rem;
   font-family: "Muli";
   font-weight: var(--fw-bold);
@@ -11,39 +11,26 @@
   cursor: pointer;
 }
 
-.btn--primary {
-  width: 11.25rem;
-}
-
 .btn--secondary {
-  width: 58%;
+  padding: 0.8125rem 3.6875rem;
 }
 
 .btn--primary:hover,
 .btn--secondary:hover {
   color: var(--secondary-color);
-  border: 0.0625rem solid var(--secondary-color);
   background: var(--light-color);
+  border: 0.125rem solid var(--secondary-color);
 }
 
 .btn--light {
-  width: 62%;
+  padding: 0.6875rem 3.6875rem;
   color: var(--secondary-color);
   background: var(--light-color);
+  border: 0.25rem solid var(--light-color);
 }
 
 .btn--light:hover {
   color: var(--light-color);
   background: var(--secondary-color);
-  border: 0.0625rem solid var(--light-color);
-}
-
-@media (min-width: 576px) {
-  .btn--secondary {
-    width: 18.75rem;
-  }
-
-  .btn--light {
-    width: 20rem;
-  }
+  border: 0.25rem solid var(--light-color);
 }
