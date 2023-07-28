@@ -25,6 +25,10 @@ html {
   display: flex;
 }
 
+.d-inline {
+  display: inline !important;
+}
+
 .d-flex-center {
   display: flex;
   align-items: center;
