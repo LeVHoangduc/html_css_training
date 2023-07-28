@@ -100,4 +100,8 @@ html {
   .d-xl-none {
     display: none;
   }
+
+  .d-xl-inline {
+    display: inline;
+  }
 }
