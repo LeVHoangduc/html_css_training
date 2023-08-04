@@ -1,0 +1,160 @@
+.main-footer {
+  margin-top: 3.75rem;
+  padding: 2.5rem 2.5rem 0 2.5rem;
+  background: var(--bg-transparent-md-color);
+}
+
+.footer__logo {
+  padding-left: 1.25rem;
+}
+
+.logo__content {
+  padding-left: 0.9375rem;
+  background: url("../../../assets/images/logo-background.png");
+  background-size: 12.5rem 3.125rem;
+}
+
+.footer__navbar {
+  grid-column: 1/12;
+  padding: 2.5rem 0;
+}
+
+.footer__list {
+  display: grid;
+  row-gap: 1.25rem;
+  max-width: 30rem;
+}
+
+.footer__link {
+  height: 3.125rem;
+  cursor: pointer;
+}
+
+.footer__social {
+  justify-content: end;
+  gap: 1.25rem;
+}
+
+.footer__icon {
+  align-items: center;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.footer__icon--facebook {
+  justify-content: end;
+}
+
+.footer__icon--instagram {
+  justify-content: start;
+}
+
+.footer__image {
+  grid-column: 12;
+  justify-self: end;
+  align-self: end;
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+
+@media (min-width: 576px) {
+  .logo__content {
+    width: 12.5rem;
+    padding-left: unset;
+  }
+
+  .footer__logo {
+    height: 3.125rem;
+  }
+
+  .footer__image {
+    width: 3.4375rem;
+    height: 3.75rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-footer > .row {
+    column-gap: 1.25rem;
+  }
+
+  .footer__wrapper {
+    grid-template-areas: "logo__footer logo__menu logo__socials footer__image ";
+    gap: 1.25rem;
+  }
+
+  .footer__logo {
+    grid-area: logo__footer;
+    grid-column: 1;
+  }
+
+  .footer__navbar {
+    grid-area: logo__menu;
+    grid-column: 2;
+    margin: unset;
+  }
+
+  .footer__list {
+    width: 23.75rem;
+    height: 3.125rem;
+  }
+
+  .footer__link {
+    margin: unset;
+  }
+
+  .footer__social {
+    grid-area: logo__socials;
+    grid-column: 3;
+    justify-content: center;
+    gap: unset;
+    margin-left: 0.625rem;
+  }
+
+  .footer__social {
+    justify-content: center;
+    gap: unset;
+  }
+
+  .footer__icon {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+
+  .footer__icon--facebook,
+  .footer__icon--instagram {
+    justify-content: center;
+  }
+
+  .footer__image {
+    grid-area: footer__image;
+    grid-column: 4;
+    width: 5.625rem;
+    height: 6.25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-footer {
+    max-height: 13.75rem;
+    padding: 2.5rem 0 0 0;
+  }
+
+  .main-footer > .row {
+    max-width: var(--screen-big-lg);
+    margin: 0 auto;
+  }
+
+  .footer__logo {
+    padding-left: unset;
+  }
+
+  .footer__navbar {
+    padding: 0 0 0 3.125rem;
+  }
+
+  .footer__list {
+    width: 30rem;
+  }
+}

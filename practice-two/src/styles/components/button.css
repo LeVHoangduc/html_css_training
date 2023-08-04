@@ -1,0 +1,36 @@
+.btn {
+  padding: 0.8125rem 1.8125rem;
+  color: var(--light-color);
+  background: var(--secondary-color);
+  border: 0.125rem solid transparent;
+  font-size: 0.875rem;
+  font-family: "Muli";
+  font-weight: var(--fw-bold);
+  line-height: 1.4;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn--secondary {
+  padding: 0.8125rem 3.6875rem;
+}
+
+.btn--primary:hover,
+.btn--secondary:hover {
+  color: var(--secondary-color);
+  background: var(--light-color);
+  border: 0.125rem solid var(--secondary-color);
+}
+
+.btn--light {
+  padding: 0.6875rem 3.6875rem;
+  color: var(--secondary-color);
+  background: var(--light-color);
+  border: 0.25rem solid var(--light-color);
+}
+
+.btn--light:hover {
+  color: var(--light-color);
+  background: var(--secondary-color);
+  border: 0.25rem solid var(--light-color);
+}

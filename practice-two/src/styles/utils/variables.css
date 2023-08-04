@@ -1,0 +1,35 @@
+:root {
+  /* Font               */
+  --primary-font: "Muli";
+  /* End font           */
+
+  /* Sizing             */
+  --fw-bold: 700;
+  --fw-semibold: 600;
+  --fw-normal: 400;
+  --fw-light: 300;
+  --fw-extralight: 200;
+  /* End sizing         */
+
+  /* Color              */
+  --primary-color: #1968fa;
+  --secondary-color: #1968fc;
+  --black-color: #000000;
+  --gray-color: #11223f;
+  --dark-color: #111111;
+  --light-color: #ffffff;
+  --shadow-color: #3145f419;
+  --shadow-sm-color: #11111a1a;
+  --shadow-light-color: #d1e1fe;
+  --bg-transparent-sm-color: #3749f117;
+  --bg-transparent-md-color: #fbfbfb;
+  --bg-transparent-color: #1429f033;
+  --bg-pale-blue-color: #f3f7ff;
+  /* End color          */
+
+  /* Screen widths      */
+  --screen-md: 768px;
+  --screen-lg: 992px;
+  --screen-big-lg: 1120px;
+  /* End screen widths  */
+}

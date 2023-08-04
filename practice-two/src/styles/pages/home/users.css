@@ -1,0 +1,38 @@
+.users {
+  margin-top: 7.8125rem;
+}
+
+.user__title {
+  color: var(--primary-color);
+  font-weight: var(--fw-bold);
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+.users__list {
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+.user {
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  background: var(--light-color);
+  box-shadow: var(--shadow-color) 0 0.5rem 1.5rem;
+}
+
+.user:hover {
+  box-shadow: var(--shadow-sm-color) 0 0.25rem 1.25rem, var(--shadow-sm-color) 0 0.75rem 3.25rem,
+    var(--shadow-sm-color) 0 1.25rem 4.75rem;
+}
+
+@media (min-width: 1200px) {
+  .users {
+    margin-top: 5rem;
+  }
+
+  .users__list {
+    margin-top: 4.0625rem;
+  }
+}

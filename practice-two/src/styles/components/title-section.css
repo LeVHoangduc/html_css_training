@@ -1,0 +1,25 @@
+.title-section {
+  text-transform: uppercase;
+  position: relative;
+}
+
+.title-section::before {
+  content: "";
+  width: 4rem;
+  height: 0.125rem;
+  position: absolute;
+  top: 117%;
+  background: var(--secondary-color);
+  box-shadow: 0 0.0625rem 0 0 var(--shadow-light-color);
+}
+
+@media (min-width: 576px) {
+  .title-section::before {
+    width: 5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .title-section::before {
+    left: -2.5rem;
+  }
+}

@@ -1,0 +1,110 @@
+.hero > .row {
+  row-gap: 8.6rem;
+}
+
+.hero__content {
+  width: 81%;
+  margin: 0 auto;
+}
+
+.hero__description {
+  margin-top: 2rem;
+  margin-bottom: 3.4rem;
+}
+
+.hero__wrapper {
+  justify-self: center;
+}
+
+.hero__image {
+  max-width: 100%;
+}
+
+.hero__banner {
+  width: 100%;
+  height: 18rem;
+  background-image: url("../../../assets/images/background-hero.png");
+}
+
+.hero__banner__content {
+  width: 81%;
+  font-weight: var(--fw-bold);
+}
+
+@media (min-width: 576px) {
+  .hero > .row {
+    row-gap: 5.375rem;
+  }
+
+  .hero__content {
+    width: 81%;
+    margin: 0 auto;
+  }
+
+  .hero__description {
+    margin-top: 1.25rem;
+    margin-bottom: 2.215rem;
+  }
+
+  .hero__wrapper {
+    width: 37.5rem;
+    height: 31.375rem;
+  }
+
+  .hero__banner {
+    height: 11.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero__content {
+    width: 100%;
+  }
+
+  .hero__wrapper {
+    margin-top: 3.125rem;
+    width: 100%;
+    max-height: 23.75rem;
+  }
+  .hero__image {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero > .row {
+    position: relative;
+    display: block;
+    height: 34.75rem;
+  }
+
+  .hero__title {
+    width: 37.5rem;
+    color: var(--gray-color);
+    letter-spacing: 0.0625rem;
+  }
+
+  .hero__description {
+    width: 38.75rem;
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .hero__wrapper {
+    position: absolute;
+    left: 32.5rem;
+    top: 3rem;
+    width: unset;
+  }
+
+  .hero__image {
+    width: 37.5rem;
+    height: 31.375rem;
+  }
+
+  .hero__button:hover {
+    color: var(--secondary-color);
+    background: var(--light-color);
+    border: 1rem solid var(--secondary-color);
+  }
+}
